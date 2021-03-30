@@ -3,9 +3,39 @@
 // -----------------------------------------------------------------------------
 
 #header {
+  position: fixed;
+  top: 0;
+  left: 0;
 
+  width: 100%;
+  box-shadow: $shadow;
 }
 
 .header {
+  display: flex;
+  align-items: center;
 
+  padding: 10px 0;
+
+  &__logo {
+    margin-right: 50px;
+  }
+
+  &__action {
+    margin-left: auto;
+    text-align: center;
+  }
+
+  &__phone {
+    font-size: $font-size-2;
+    font-weight: $weight-Bold;
+    color: #808080;
+  }
+
+  &__excursion {
+    font-size: $font-size-4;
+    color: #40aad6;
+
+    cursor: pointer;
+  }
 }
