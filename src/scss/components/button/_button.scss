@@ -1,0 +1,19 @@
+.button {
+  outline: none;
+  border: none;
+  border-radius: 28px;
+
+  padding: 18px 25px;
+
+  color: $button__text;
+  font-weight: $weight-Bold;
+
+  cursor: pointer;
+  transition: 0.15s ease;
+
+  &:hover {
+    color: $button__text--hover;
+    border-color: $button__border--hover;
+    background-color: $button__bg--hover;
+  }
+}

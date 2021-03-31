@@ -3,9 +3,12 @@
 // -----------------------------------------------------------------------------
 
 #header {
-  position: fixed;
+  position: sticky;
+  z-index: $z-index-header;
   top: 0;
   left: 0;
+
+  background-color: #fff;
 
   width: 100%;
   box-shadow: $shadow;

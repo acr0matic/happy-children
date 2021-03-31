@@ -1,0 +1,21 @@
+.list {
+  &--checkmark {
+    .list__item {
+      font-size: $font-size-4;
+    }
+
+    .list__item::before {
+      content: url("../img/icons/list/checkmark.svg");
+      margin-right: 18px;
+    }
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+
+    &:not(:last-child) {
+      margin-bottom: 15px;
+    }
+  }
+}

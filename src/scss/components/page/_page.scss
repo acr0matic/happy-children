@@ -1,0 +1,14 @@
+.page {
+  &__title {
+    font-family: Comfortaa, sans-serif;
+
+    &--main {
+      font-size: $font-size-0;
+    }
+  }
+
+  &__subtitle {
+    font-size: $font-size-1;
+    font-weight: $weight-Light;
+  }
+}

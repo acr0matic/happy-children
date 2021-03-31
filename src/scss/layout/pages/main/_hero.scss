@@ -1,0 +1,51 @@
+// -----------------------------------------------------------------------------
+// Фрагмент стилизации какой-то секции
+// -----------------------------------------------------------------------------
+
+#hero {
+  &::after {
+    content: "";
+
+    position: absolute;
+    z-index: -1;
+
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    background-color: $palette-purple;
+    background-image: url("../img/pattern/purple.svg");
+
+    clip-path: url(#wave);
+  }
+}
+
+.hero {
+  position: relative;
+  padding-top: 105px;
+  padding-bottom: 40px;
+
+  color: $text-white;
+
+  &__title {
+    margin-bottom: 12px;
+  }
+
+  &__subtitle {
+    margin-bottom: 30px;
+  }
+
+  &__advantages {
+    margin-bottom: 35px;
+  }
+
+  &__picture {
+    position: absolute;
+    right: 0;
+    bottom: 40px;
+  }
+
+  &__image {
+  }
+}
