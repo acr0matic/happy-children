@@ -1,0 +1,15 @@
+.section {
+  padding-top: 150px;
+
+  &__title {
+    font-family: Comfortaa, sans-serif;
+    font-size: $font-size-1;
+    line-height: 41px;
+  }
+
+  &__text {
+    &:not(:last-child) {
+      margin-bottom: 20px;
+    }
+  }
+}

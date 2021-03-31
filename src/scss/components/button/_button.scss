@@ -12,8 +12,10 @@
   transition: 0.15s ease;
 
   &:hover {
-    color: $button__text--hover;
-    border-color: $button__border--hover;
-    background-color: $button__bg--hover;
+    @media (hover: hover) {
+      color: $button__text--hover;
+      border-color: $button__border--hover;
+      background-color: $button__bg--hover;
+    }
   }
 }

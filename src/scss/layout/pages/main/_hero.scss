@@ -40,6 +40,14 @@
     margin-bottom: 35px;
   }
 
+  &__action .button-outline {
+    color: $text-white;
+
+    &:hover {
+      color: $button__text--hover;
+    }
+  }
+
   &__picture {
     position: absolute;
     right: 0;
