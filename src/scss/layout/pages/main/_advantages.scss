@@ -31,6 +31,13 @@
 
   &__item {
     position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 100%;
+
     padding: 62px 45px 42px 45px;
     background-color: $palette-white;
     box-shadow: $shadow;
