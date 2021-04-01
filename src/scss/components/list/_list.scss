@@ -1,18 +1,31 @@
 .list {
   &--checkmark {
-    .list__item {
-      font-size: $font-size-4;
-    }
-
     .list__item::before {
       content: url("../img/icons/list/checkmark.svg");
+
+      position: relative;
+      bottom: 3px;
+
       margin-right: 18px;
+    }
+  }
+
+  &--line {
+    .list__item::before {
+      content: url("../img/icons/list/line.svg");
+
+      position: relative;
+      bottom: 4px;
+
+      margin-right: 12px;
     }
   }
 
   &__item {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+
+    font-size: $font-size-4;
 
     &:not(:last-child) {
       margin-bottom: 15px;
