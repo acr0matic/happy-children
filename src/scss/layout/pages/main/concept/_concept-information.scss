@@ -1,14 +1,20 @@
 .concept-information {
   .row {
-    &:nth-child(1) {
+    &:nth-child(3n + 1) {
       .concept-information__picture {
         background-color: $palette-darkblue;
       }
     }
 
-    &:nth-child(2) {
+    &:nth-child(3n + 2) {
       .concept-information__picture {
         background-color: $palette-purple;
+      }
+    }
+
+    &:nth-child(3n + 3) {
+      .concept-information__picture {
+        background-color: $palette-yellow;
       }
     }
 
