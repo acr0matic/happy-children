@@ -3,9 +3,6 @@
     .list__item::before {
       content: url("../img/icons/list/checkmark.svg");
 
-      position: relative;
-      bottom: 3px;
-
       margin-right: 18px;
     }
   }
@@ -21,11 +18,20 @@
     }
   }
 
+  &--small {
+    .list__item {
+      &:not(:last-child) {
+        margin-bottom: 5px;
+      }
+    }
+  }
+
   &__item {
     display: flex;
     align-items: flex-start;
 
     font-size: $font-size-4;
+    line-height: 27px;
 
     &:not(:last-child) {
       margin-bottom: 15px;

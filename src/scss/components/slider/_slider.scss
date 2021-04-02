@@ -1,0 +1,28 @@
+.swiper {
+  &-button {
+    &__prev,
+    &__next {
+      position: static;
+      outline: none;
+      transition: all 0.15s ease;
+
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+
+    &__prev {
+      &::after {
+        content: url("../img/icons/control/sarrow__left.svg");
+      }
+    }
+
+    &__next {
+      margin-left: 100px;
+
+      &::after {
+        content: url("../img/icons/control/arrow__right.svg");
+      }
+    }
+  }
+}

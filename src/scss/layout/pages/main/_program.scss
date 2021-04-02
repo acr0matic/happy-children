@@ -1,0 +1,45 @@
+#program {
+  .button {
+    padding: 18px 50px;
+  }
+}
+
+.program {
+  &__content {
+    padding: 48px;
+    background-color: $palette-white;
+    box-shadow: $shadow;
+  }
+
+  &__title {
+    margin-bottom: 25px;
+  }
+
+  &__text {
+    margin-bottom: 25px;
+  }
+
+  &__action {
+  }
+
+  &__picture {
+    position: relative;
+    background-color: $palette-blue;
+    border-radius: 50%;
+
+    width: 100%;
+    max-width: 577px;
+    height: 577px;
+  }
+
+  &__image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    width: 525px;
+    height: 525px;
+
+    border-radius: 50%;
+  }
+}
