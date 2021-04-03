@@ -1,0 +1,49 @@
+.condition-card {
+  border-radius: $border-radius;
+  overflow: hidden;
+  box-shadow: $shadow;
+
+  &__header {
+    padding: 30px 0;
+
+    color: $text-white;
+    text-align: center;
+
+    &--yellow {
+      background-color: $palette-yellow;
+    }
+
+    &--darkblue {
+      background-color: $palette-darkblue;
+    }
+  }
+
+  &__title {
+    font-size: 28px;
+    font-weight: $weight-Medium;
+  }
+
+  &__subtitle {
+    margin-bottom: 5px;
+    font-size: $font-size-2;
+    font-weight: $weight-Medium;
+  }
+
+  &__content {
+    padding: 48px;
+    background-color: $palette-white;
+  }
+
+  &__wrapper {
+    &:not(:last-child) {
+      margin-bottom: 25px;
+    }
+  }
+
+  &__button {
+    display: block;
+    margin: 40px auto 0 auto;
+
+    padding: 18px 80px;
+  }
+}

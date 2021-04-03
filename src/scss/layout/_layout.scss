@@ -6,12 +6,13 @@
 @import "common/header";
 @import "common/nav";
 @import "common/footer";
-
 // Фрагметы главной страницы
-@import "pages/main/hero.scss";
-@import "pages/main/about.scss";
-@import "pages/main/advantages.scss";
-@import "pages/main/gallery.scss";
-@import "pages/main/concept/main.scss";
-@import "pages/main/what-get.scss";
-@import "pages/main/program.scss";
+
+@import "pages/main/hero";
+@import "pages/main/about";
+@import "pages/main/advantages";
+@import "pages/main/gallery";
+@import "pages/main/concept/main";
+@import "pages/main/what-get";
+@import "pages/main/program";
+@import "pages/main/condition/main";
