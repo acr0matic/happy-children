@@ -32,6 +32,10 @@ html {
   text-shadow: none;
 }
 
+body {
+  background-color: $block-main;
+}
+
 /*
  * Удаляет отступы снизу у элементов, внутри контейнера
  * https://github.com/h5bp/html5-boilerplate/issues/440
