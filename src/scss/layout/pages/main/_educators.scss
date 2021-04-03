@@ -1,0 +1,69 @@
+.educators {
+  position: relative;
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__photo {
+    position: relative;
+    background-color: $palette-yellow;
+    border-radius: 50%;
+
+    width: 100%;
+    max-width: 382px;
+    height: 382px;
+
+    margin-bottom: 25px;
+  }
+
+  &__image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    width: 346px;
+    height: 346px;
+
+    border-radius: 50%;
+  }
+
+  &__content {
+    text-align: center;
+  }
+
+  &__name {
+    margin-bottom: 12px;
+    font-size: 28px;
+  }
+
+  &__role {
+    margin-bottom: 12px;
+    font-size: $font-size-2;
+  }
+
+  &__more {
+    color: #5ec2eb;
+    font-weight: $weight-Bold;
+
+    transition: 0.15s ease;
+
+    &:hover {
+      color: $text-black;
+
+      .educators__icon {
+        path {
+          fill: $text-black;
+        }
+      }
+    }
+  }
+
+  &__icon {
+    margin-left: 10px;
+
+    path {
+      transition: 0.15s ease;
+    }
+  }
+}

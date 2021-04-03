@@ -1,8 +1,7 @@
 .swiper {
   &-button {
-    &__prev,
-    &__next {
-      position: static;
+    &-prev,
+    &-next {
       outline: none;
       transition: all 0.15s ease;
 
@@ -11,14 +10,16 @@
       }
     }
 
-    &__prev {
+    &-prev {
+      left: -60px;
+
       &::after {
-        content: url("../img/icons/control/sarrow__left.svg");
+        content: url("../img/icons/control/arrow__left.svg");
       }
     }
 
-    &__next {
-      margin-left: 100px;
+    &-next {
+      right: -60px;
 
       &::after {
         content: url("../img/icons/control/arrow__right.svg");
