@@ -1,0 +1,19 @@
+.link {
+  &--text {
+  }
+
+  &--icon:hover {
+    @media (hover: hover) {
+      .link__icon--circle circle {
+        fill: $link-icon--circle__hover;
+      }
+    }
+  }
+
+  &__icon {
+    circle,
+    path {
+      transition: 0.15s ease;
+    }
+  }
+}

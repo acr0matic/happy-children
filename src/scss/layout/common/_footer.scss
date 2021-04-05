@@ -3,9 +3,34 @@
 // -----------------------------------------------------------------------------
 
 #footer {
+  margin-top: 165px;
+  padding: 20px 0;
 
+  background-color: $block-secondary;
 }
 
 .footer {
+  &__logo {
+    margin-right: 45px;
+  }
 
+  &__action {
+    position: absolute;
+    top: -35px;
+    right: -5px;
+
+    cursor: pointer;
+
+    circle {
+      transition: 0.15s ease;
+    }
+
+    &:hover {
+      @media (hover: hover) {
+        circle {
+          fill: #f2d97e;
+        }
+      }
+    }
+  }
 }
