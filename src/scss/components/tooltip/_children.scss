@@ -1,0 +1,17 @@
+.tippy-box[data-theme~="children"] {
+  z-index: 5;
+  padding: 0;
+
+  background-color: $palette-blue;
+  color: $text-white;
+
+  box-shadow: $shadow;
+
+  .tippy-content {
+    padding: 12px 18px;
+  }
+
+  .tippy-arrow {
+    color: #ffffff;
+  }
+}
