@@ -1,0 +1,38 @@
+#callback {
+}
+
+.callback {
+  &__wrapper {
+    padding: 48px;
+    background-color: $palette-white;
+    box-shadow: $shadow;
+  }
+
+  &__title {
+  }
+
+  &__text {
+    font-size: $font-size-4;
+  }
+
+  &__picture {
+    position: relative;
+    background-color: $palette-purple;
+    border-radius: 50%;
+
+    width: 100%;
+    max-width: 577px;
+    height: 577px;
+  }
+
+  &__image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    width: 525px;
+    height: 525px;
+
+    border-radius: 50%;
+  }
+}

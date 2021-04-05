@@ -6,8 +6,8 @@
 @import "common/header";
 @import "common/nav";
 @import "common/footer";
-// Фрагметы главной страницы
 
+// Фрагметы главной страницы
 @import "pages/main/hero";
 @import "pages/main/about";
 @import "pages/main/advantages";
@@ -18,3 +18,5 @@
 @import "pages/main/condition/main";
 @import "pages/main/educators";
 @import "pages/main/contact";
+
+@import "pages/callback";

@@ -1,0 +1,24 @@
+.input {
+  &--error {
+    .input__field {
+      border-bottom-color: $input--error;
+    }
+  }
+
+
+  &__field {
+    width: 100%;
+
+    border: none;
+    border-bottom: 1px solid $input__border;
+    outline: none;
+
+    padding: 5px 0;
+
+    transition: 0.15s ease;
+
+    &::placeholder {
+      color: $input__placeholder;
+    }
+  }
+}
