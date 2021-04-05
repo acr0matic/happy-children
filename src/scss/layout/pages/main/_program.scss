@@ -6,7 +6,9 @@
 
 .program {
   &__content {
+    border-radius: $border-radius;
     padding: 48px;
+
     background-color: $palette-white;
     box-shadow: $shadow;
   }
