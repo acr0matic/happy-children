@@ -13,7 +13,7 @@
 
   &:hover {
     @media (hover: hover) {
-      color: $button__text--hover;
+      color: $button__text;
       border-color: $button__border--hover;
       background-color: $button__bg--hover;
     }

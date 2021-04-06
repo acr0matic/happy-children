@@ -13,5 +13,13 @@
   &__link {
     padding: 5px 0;
     font-size: $font-size-6;
+
+    transition: 0.15s ease;
+
+    &:hover {
+      @media (hover: hover) {
+        color: $text-yellow;
+      }
+    }
   }
 }

@@ -27,12 +27,22 @@
   &__action {
     margin-left: auto;
     text-align: center;
+
+    transition: 0.15s ease;
   }
 
   &__phone {
     font-size: $font-size-2;
     font-weight: $weight-Bold;
     color: #808080;
+
+    transition: 0.15s ease;
+
+    &:hover {
+      @media (hover: hover) {
+        color: $text-yellow;
+      }
+    }
   }
 
   &__excursion {
@@ -40,5 +50,13 @@
     color: #40aad6;
 
     cursor: pointer;
+
+    transition: 0.15s ease;
+
+    &:hover {
+      @media (hover: hover) {
+        color: $text-yellow;
+      }
+    }
   }
 }
