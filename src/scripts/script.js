@@ -32,3 +32,6 @@ modalButtons.forEach((button) => {
     modalTitle.innerHTML = callbackModal.getAttribute('data-modal-title');
   });
 });
+
+// eslint-disable-next-line no-restricted-globals
+scrollTo();
