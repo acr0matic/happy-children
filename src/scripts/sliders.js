@@ -5,6 +5,7 @@ const programList = [];
 const programSlider = new Swiper('.program-slider', {
   speed: 400,
   simulateTouch: false,
+  spaceBetween: 30,
 
   on: {
     init() {

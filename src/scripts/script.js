@@ -2,7 +2,7 @@
 
 const callbackModal = document.getElementById('modal-callback');
 
-let modalTitle = callbackModal.querySelector('.modal__title');
+const modalTitle = callbackModal.querySelector('.modal__title');
 let formType = '';
 
 tippy('.advantages__item', {
