@@ -1,4 +1,4 @@
-/* global tippy, MicroModal */
+/* global tippy, MicroModal, SmoothScroll */
 
 const callbackModal = document.getElementById('modal-callback');
 
@@ -34,7 +34,7 @@ modalButtons.forEach((button) => {
 });
 
 // eslint-disable-next-line no-restricted-globals
-scrollTo();
+SmoothScroll();
 
 const headerDropdown = document.querySelector('#header .header__nav .dropdown');
 let dropdownTimer = null;

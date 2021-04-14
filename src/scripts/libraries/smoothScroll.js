@@ -1,7 +1,7 @@
 // Vanilla JavaScript Scroll to Anchor
 // @ https://perishablepress.com/vanilla-javascript-scroll-anchor/
 
-function scrollTo() {
+function SmoothScroll() {
   var links = document.querySelectorAll('nav li a, button[href]');
   for (var i = 0; i < links.length; i++) {
     var link = links[i];
