@@ -4,11 +4,19 @@
 
     &--main {
       font-size: $font-size-0;
+
+      @include breakpoint($breakpoint-laptop--medium) {
+        font-size: 56px;
+      }
     }
   }
 
   &__subtitle {
     font-size: $font-size-1;
     font-weight: $weight-Light;
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      font-size: $font-size-2;
+    }
   }
 }

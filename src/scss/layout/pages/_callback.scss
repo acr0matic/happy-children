@@ -25,6 +25,11 @@
     width: 100%;
     max-width: 577px;
     height: 577px;
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      width: 380px;
+      height: 380px;
+    }
   }
 
   &__image {
@@ -36,5 +41,10 @@
     height: 525px;
 
     border-radius: 50%;
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      width: 360px;
+      height: 360px;
+    }
   }
 }
