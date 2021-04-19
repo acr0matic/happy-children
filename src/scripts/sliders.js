@@ -28,12 +28,18 @@ const programSlider = new Swiper('.program-slider', {
 });
 
 const educatorSlider = new Swiper('.educator__slider', {
-  slidesPerView: 3,
+  slidesPerView: 2,
   spaceBetween: 30,
   speed: 400,
 
   navigation: {
     nextEl: '.educator__next',
     prevEl: '.educator__prev',
+  },
+
+  breakpoints: {
+    996: {
+      slidesPerView: 3,
+    },
   },
 });

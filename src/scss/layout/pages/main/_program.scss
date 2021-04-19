@@ -37,6 +37,10 @@
       width: 380px;
       height: 380px;
     }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      display: none;
+    }
   }
 
   &__image {

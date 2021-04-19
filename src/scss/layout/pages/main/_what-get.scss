@@ -23,15 +23,28 @@
   }
 
   .row > div {
+    @include first(6) {
+      @include breakpoint($breakpoint-tablet--large) {
+        margin-bottom: 30px;
+      }
+    }
     &:nth-child(3n + 2) {
       .what-get__item {
         margin-top: 40px;
+
+        @include breakpoint($breakpoint-tablet--large) {
+          margin-top: 0;
+        }
       }
     }
 
     &:nth-child(3n + 3) {
       .what-get__item {
         margin-top: 80px;
+
+        @include breakpoint($breakpoint-tablet--large) {
+          margin-top: 0;
+        }
       }
     }
   }

@@ -12,6 +12,14 @@
   &__item {
     &:not(:last-child) {
       margin-right: 30px;
+
+      @include breakpoint($breakpoint-laptop--medium) {
+        margin-right: 16px;
+      }
+    }
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      text-align: center;
     }
   }
 

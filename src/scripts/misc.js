@@ -19,3 +19,30 @@ if (scrollTopArrow) {
     });
   });
 }
+
+const headerDropdown = document.querySelector('#header .header__nav .dropdown');
+let dropdownTimer = null;
+
+if (window.matchMedia('(min-width: 1200px)').matches) {
+  headerDropdown.addEventListener('mouseenter', () => {
+    headerDropdown.classList.add('dropdown--show');
+    clearTimeout(dropdownTimer);
+  });
+
+  headerDropdown.addEventListener('mouseleave', () => {
+    dropdownTimer = window.setTimeout(() => headerDropdown.classList.remove('dropdown--show'), 300);
+  });
+}
+
+else {
+  headerDropdown.addEventListener('click', () => {
+    headerDropdown.classList.toggle('dropdown--show');
+  });
+
+  window.addEventListener('click', (e) => {
+    console.log(e.target);
+    if (!headerDropdown.contains(e.target)) {
+      headerDropdown.classList.remove('dropdown--show');
+    }
+  });
+}

@@ -26,6 +26,10 @@
     height: 350px;
     border-radius: $border-radius;
     overflow: hidden;
+
+    @include breakpoint($breakpoint-tablet--large) {
+      height: 220px;
+    }
   }
 
   &__image {

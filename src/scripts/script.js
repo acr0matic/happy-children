@@ -35,15 +35,3 @@ modalButtons.forEach((button) => {
 
 // eslint-disable-next-line no-restricted-globals
 SmoothScroll();
-
-const headerDropdown = document.querySelector('#header .header__nav .dropdown');
-let dropdownTimer = null;
-
-headerDropdown.addEventListener('mouseenter', () => {
-  headerDropdown.classList.add('dropdown--show');
-  clearTimeout(dropdownTimer);
-});
-
-headerDropdown.addEventListener('mouseleave', () => {
-  dropdownTimer = window.setTimeout(() => headerDropdown.classList.remove('dropdown--show'), 300);
-});

@@ -75,5 +75,9 @@
 
     border-radius: $border-radius;
     overflow: hidden;
+
+    @include breakpoint($breakpoint-tablet--large) {
+      height: 350px;
+    }
   }
 }
