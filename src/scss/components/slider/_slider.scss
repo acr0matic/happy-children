@@ -1,13 +1,13 @@
 .swiper {
   &-controls {
-    @include breakpoint($breakpoint-tablet--large) {
+    @include breakpoint(max-width 1080px) {
       position: relative;
 
       margin-top: 45px;
     }
 
     div {
-      @include breakpoint($breakpoint-tablet--large) {
+      @include breakpoint(max-width 1080px) {
         // position: static;
         width: initial;
         height: initial;
@@ -29,14 +29,14 @@
     &-prev {
       left: -60px;
 
-      @include breakpoint($breakpoint-tablet--large) {
+      @include breakpoint(max-width 1080px) {
         left: calc(50% - 75px);
       }
 
       &::after {
         content: url("../img/icons/control/arrow__left.svg");
 
-        @include breakpoint($breakpoint-tablet--large) {
+        @include breakpoint(max-width 1080px) {
           content: url("../img/icons/control/arrow__left--mobile.svg");
         }
       }
@@ -45,14 +45,14 @@
     &-next {
       right: -60px;
 
-      @include breakpoint($breakpoint-tablet--large) {
+      @include breakpoint(max-width 1080px) {
         right: calc(50% - 75px);
       }
 
       &::after {
         content: url("../img/icons/control/arrow__right.svg");
 
-        @include breakpoint($breakpoint-tablet--large) {
+        @include breakpoint(max-width 1080px) {
           content: url("../img/icons/control/arrow__right--mobile.svg");
         }
       }
