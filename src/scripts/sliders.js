@@ -74,5 +74,10 @@ if (window.matchMedia('(max-width: 768px)').matches) {
     speed: 400,
     simulateTouch: false,
     spaceBetween: 30,
+
+    navigation: {
+      nextEl: '.gallery__next',
+      prevEl: '.gallery__prev',
+    },
   });
 }
