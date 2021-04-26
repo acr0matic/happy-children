@@ -4,6 +4,10 @@
   margin-top: 140px;
   padding: 230px 0;
 
+  @include breakpoint($breakpoint-tablet) {
+    padding: 110px 0;
+  }
+
   &::after {
     content: "";
 
@@ -19,6 +23,10 @@
     background-image: url("../img/pattern/blue.svg");
 
     clip-path: url(#contact-wave);
+
+    @include breakpoint($breakpoint-tablet) {
+      clip-path: url(#contact-wave--mobile);
+    }
   }
 
   .shape {
@@ -27,6 +35,12 @@
 }
 
 .contact {
+  &__title {
+    @include breakpoint($breakpoint-tablet) {
+      margin-bottom: 25px;
+    }
+  }
+
   &__info {
     height: 100%;
     border-radius: $border-radius;
@@ -38,6 +52,11 @@
 
     @include breakpoint($breakpoint-laptop--medium) {
       padding: 48px;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      padding: 35px 15px;
+      text-align: center;
     }
   }
 
@@ -57,6 +76,10 @@
     font-weight: $weight-Regular;
 
     color: $text-gray;
+
+    @include breakpoint($breakpoint-tablet) {
+      font-size: $font-size-5;
+    }
   }
 
   &__link {
@@ -66,6 +89,10 @@
     @include breakpoint($breakpoint-laptop--medium) {
       font-size: $font-size-4;
       line-height: 24px;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      font-size: $font-size-5;
     }
   }
 

@@ -6,6 +6,10 @@
       margin-top: 45px;
     }
 
+    @include breakpoint($breakpoint-tablet) {
+      margin-top: 25px;
+    }
+
     div {
       @include breakpoint(max-width 1080px) {
         // position: static;
@@ -14,7 +18,16 @@
         margin-top: 0;
       }
     }
+
+    &--mobile {
+      display: none;
+
+      @include breakpoint($breakpoint-tablet) {
+        display: block;
+      }
+    }
   }
+
   &-button {
     &-prev,
     &-next {

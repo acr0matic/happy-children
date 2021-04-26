@@ -8,6 +8,10 @@
       @include breakpoint($breakpoint-laptop--medium) {
         font-size: 56px;
       }
+
+      @include breakpoint($breakpoint-tablet) {
+        font-size: $font-size-1 + 4;
+      }
     }
   }
 

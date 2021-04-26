@@ -1,16 +1,31 @@
 #program {
   .button {
     padding: 18px 50px;
+
+    @include breakpoint($breakpoint-mobile--large) {
+      width: 100%;
+      padding: 18px 25px;
+    }
   }
 }
 
 .program {
+  &__item {
+    height: 100%;
+  }
+
   &__content {
+    height: 100%;
+
     border-radius: $border-radius;
     padding: 48px;
 
     background-color: $palette-white;
     box-shadow: $shadow;
+
+    @include breakpoint($breakpoint-mobile--large) {
+      padding: 35px;
+    }
   }
 
   &__title {
@@ -19,6 +34,12 @@
 
   &__text {
     margin-bottom: 25px;
+
+    li {
+      @include breakpoint($breakpoint-mobile--large) {
+        align-items: center;
+      }
+    }
   }
 
   &__action {

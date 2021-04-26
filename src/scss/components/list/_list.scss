@@ -37,6 +37,10 @@
       font-size: $font-size-5;
     }
 
+    @include breakpoint($breakpoint-tablet) {
+      font-size: $font-size-6;
+    }
+
     &:not(:last-child) {
       margin-bottom: 15px;
 

@@ -1,4 +1,6 @@
 .program-slider {
+  padding-bottom: 5px;
+
   .swiper-pagination {
     position: initial;
     display: flex;
@@ -28,6 +30,13 @@
 
       opacity: 1;
       transition: 0.15s ease;
+
+      @include breakpoint($breakpoint-mobile--large) {
+        margin: 0 6px !important;
+        padding: 0 5px;
+
+        font-size: $font-size-6;
+      }
 
       &:hover {
         @media (hover: hover) {

@@ -11,6 +11,7 @@ tippy('.advantages__item', {
   maxWidth: 380,
   theme: 'children',
   arrow: false,
+  zIndex: 10,
 });
 
 MicroModal.init({
@@ -35,3 +36,8 @@ modalButtons.forEach((button) => {
 
 // eslint-disable-next-line no-restricted-globals
 SmoothScroll();
+
+const mobileButton = document.getElementById('mobile-button');
+mobileButton.addEventListener('click', () => {
+  mobileButton.classList.toggle('is-active');
+});

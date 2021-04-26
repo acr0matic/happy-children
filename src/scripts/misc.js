@@ -40,7 +40,6 @@ else {
   });
 
   window.addEventListener('click', (e) => {
-    console.log(e.target);
     if (!headerDropdown.contains(e.target)) {
       headerDropdown.classList.remove('dropdown--show');
     }

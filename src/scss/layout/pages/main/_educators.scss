@@ -5,6 +5,7 @@
     flex-direction: column;
     align-items: center;
   }
+
   &__photo {
     position: relative;
     background-color: $palette-yellow;
@@ -45,19 +46,11 @@
   &__name {
     margin-bottom: 12px;
     font-size: 28px;
-
-    @include breakpoint($breakpoint-laptop--medium) {
-      font-size: $font-size-2;
-    }
   }
 
   &__role {
     margin-bottom: 12px;
     font-size: $font-size-2;
-
-    @include breakpoint($breakpoint-laptop--medium) {
-      font-size: $font-size-4;
-    }
   }
 
   &__more {

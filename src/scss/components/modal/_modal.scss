@@ -23,6 +23,11 @@
   padding: 48px;
 
   background-color: $palette-white;
+
+  @include breakpoint($breakpoint-tablet) {
+    width: 95%;
+    padding: 48px 24px 24px 24px;
+  }
 }
 
 .modal__header {
@@ -34,12 +39,23 @@
   font-family: Comfortaa, sans-serif;
   font-weight: $weight-Regular;
   font-size: $font-size-1;
+
+  @include breakpoint($breakpoint-tablet) {
+    font-size: $font-size-3;
+  }
 }
 
 .modal__description {
   margin-bottom: 40px;
 
   font-size: $font-size-4;
+
+  @include breakpoint($breakpoint-tablet) {
+    font-size: $font-size-6;
+    br {
+      display: none;
+    }
+  }
 }
 
 .modal__close {

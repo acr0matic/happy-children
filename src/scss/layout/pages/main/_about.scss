@@ -1,5 +1,9 @@
 #about {
   padding-top: 110px;
+
+  @include breakpoint($breakpoint-tablet--large) {
+    padding-top: 15px;
+  }
 }
 
 .about {
@@ -9,10 +13,18 @@
 
     background-color: $palette-white;
     box-shadow: $shadow;
+
+    @include breakpoint($breakpoint-mobile--large) {
+      padding: 32px 15px;
+    }
   }
 
   &__title {
     margin-bottom: 25px;
+
+    @include breakpoint($breakpoint-tablet--large) {
+      margin-bottom: 20px;
+    }
   }
 
   &__text {
@@ -35,6 +47,11 @@
       width: 380px;
       height: 380px;
     }
+
+    @include breakpoint($breakpoint-tablet) {
+      width: 295px;
+      height: 295px;
+    }
   }
 
   &__image {
@@ -50,6 +67,18 @@
     @include breakpoint($breakpoint-laptop--medium) {
       width: 360px;
       height: 360px;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      width: 270px;
+      height: 270px;
+    }
+  }
+
+  &__button {
+    @include breakpoint($breakpoint-mobile--large) {
+      display: block;
+      margin: 0 auto;
     }
   }
 }

@@ -1,0 +1,7 @@
+.slider-advantages {
+  @include breakpoint($breakpoint-tablet) {
+    padding-top: 32px;
+    padding-bottom: 5px;
+    margin-top: -32px;
+  }
+}

@@ -1,0 +1,19 @@
+.swiper-container--mobile {
+  overflow: visible;
+
+  @include breakpoint($breakpoint-tablet) {
+    overflow: hidden;
+  }
+
+  .swiper-wrapper {
+    margin: 0;
+
+    @include breakpoint($breakpoint-tablet) {
+      flex-wrap: nowrap;
+    }
+  }
+
+  .swiper-slide {
+    height: initial;
+  }
+}

@@ -1,6 +1,10 @@
 .section {
   padding-top: 150px;
 
+  @include breakpoint($breakpoint-laptop--medium) {
+    padding-top: 100px;
+  }
+
   &__title {
     margin-bottom: 48px;
 
@@ -8,16 +12,35 @@
     font-weight: $weight-Regular;
     font-size: $font-size-1;
     line-height: 41px;
+
+    @include breakpoint($breakpoint-tablet) {
+      font-size: $font-size-2;
+      text-align: center;
+      line-height: 30px;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      font-size: $font-size-3;
+      line-height: 25px;
+    }
   }
 
   &__subtitle {
     font-family: Comfortaa, sans-serif;
     font-size: $font-size-2;
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      font-size: $font-size-4;
+    }
   }
 
   &__text {
     &:not(:last-child) {
       margin-bottom: 20px;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      font-size: $font-size-6;
     }
   }
 }

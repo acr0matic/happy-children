@@ -1,7 +1,7 @@
 #what-get {
   position: relative;
   padding-top: 235px;
-  padding-bottom: 65px;
+  padding-bottom: 225px;
 
   color: $text-white;
 
@@ -20,9 +20,17 @@
     background-image: url("../img/pattern/darkblue.svg");
 
     clip-path: url(#what-get-wave);
+
+    @include breakpoint($breakpoint-tablet) {
+      clip-path: url(#what-get-wave--mobile);
+    }
   }
 
   .row > div {
+    @include breakpoint($breakpoint-tablet) {
+      margin-bottom: 0 !important;
+    }
+
     @include first(6) {
       @include breakpoint($breakpoint-tablet--large) {
         margin-bottom: 30px;
@@ -98,6 +106,10 @@
       br {
         display: none;
       }
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      width: 60%;
     }
   }
 }
