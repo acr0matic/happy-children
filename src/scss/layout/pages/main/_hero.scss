@@ -6,6 +6,10 @@
   position: relative;
   padding-bottom: 200px;
 
+  @include breakpoint($breakpoint-laptop--medium) {
+    padding-bottom: 150px;
+  }
+
   &::after {
     content: "";
 
@@ -73,8 +77,7 @@
     bottom: -90px;
 
     @include breakpoint($breakpoint-laptop--medium) {
-      bottom: 20%;
-
+      bottom: 0;
       width: 500px;
     }
 

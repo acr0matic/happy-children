@@ -26,6 +26,13 @@
     @include breakpoint($breakpoint-mobile--large) {
       padding: 35px;
     }
+
+    .list__item {
+      @include breakpoint($breakpoint-mobile--large) {
+        text-align: center;
+        justify-content: center;
+      }
+    }
   }
 
   &__title {

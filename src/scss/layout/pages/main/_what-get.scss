@@ -27,7 +27,7 @@
   }
 
   .row > div {
-    @include breakpoint($breakpoint-tablet) {
+    @include breakpoint($breakpoint-mobile--large) {
       margin-bottom: 0 !important;
     }
 
