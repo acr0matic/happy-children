@@ -10,6 +10,14 @@
     padding-bottom: 150px;
   }
 
+  @include breakpoint($breakpoint-tablet) {
+    margin-bottom: -70px;
+  }
+
+  @include breakpoint($breakpoint-mobile--large) {
+    padding-bottom: 200px;
+  }
+
   &::after {
     content: "";
 
@@ -26,7 +34,7 @@
 
     clip-path: url(#hero-wave);
 
-    @include breakpoint($breakpoint-tablet) {
+    @include breakpoint($breakpoint-tablet--large) {
       clip-path: url(#hero-wave--mobile);
     }
   }
@@ -39,12 +47,29 @@
 
   color: $text-white;
 
+  @include breakpoint($breakpoint-mobile--large) {
+    padding-top: 55px;
+  }
+
   &__title {
     margin-bottom: 12px;
+
+    @include breakpoint($breakpoint-mobile--large) {
+      text-align: center;
+    }
   }
 
   &__subtitle {
     margin-bottom: 30px;
+
+    @include breakpoint($breakpoint-mobile--large) {
+      font-weight: $weight-Light;
+      text-align: center;
+
+      br {
+        display: none;
+      }
+    }
   }
 
   &__advantages {
@@ -61,10 +86,16 @@
 
   &__action .button-outline {
     color: $text-white;
+
+    @include breakpoint($breakpoint-mobile--large) {
+      max-width: 155px;
+    }
   }
 
   &__button {
-    max-width: 360px;
+    @include breakpoint($breakpoint-tablet) {
+      max-width: 255px;
+    }
 
     @include breakpoint($breakpoint-mobile--large) {
       width: 100%;

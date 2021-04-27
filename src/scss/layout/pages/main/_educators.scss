@@ -59,6 +59,11 @@
 
     transition: 0.15s ease;
 
+    @include breakpoint($breakpoint-mobile--large) {
+      display: block;
+      margin-bottom: 15px;
+    }
+
     &:hover {
       color: $text-black;
 

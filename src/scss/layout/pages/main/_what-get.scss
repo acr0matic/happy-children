@@ -5,6 +5,10 @@
 
   color: $text-white;
 
+  @include breakpoint($breakpoint-tablet) {
+    margin-bottom: -70px;
+  }
+
   &::after {
     content: "";
 
@@ -21,7 +25,7 @@
 
     clip-path: url(#what-get-wave);
 
-    @include breakpoint($breakpoint-tablet) {
+    @include breakpoint($breakpoint-tablet--large) {
       clip-path: url(#what-get-wave--mobile);
     }
   }

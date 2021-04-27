@@ -8,11 +8,15 @@
   }
 
   &--line {
+    .list__item {
+      align-items: flex-start;
+    }
+
     .list__item::before {
       content: url("../img/icons/list/line.svg");
 
       position: relative;
-      bottom: 4px;
+      bottom: 2px;
 
       margin-right: 12px;
     }
@@ -22,23 +26,30 @@
     .list__item {
       &:not(:last-child) {
         margin-bottom: 5px;
+
+        @include breakpoint($breakpoint-tablet) {
+          margin-bottom: 12px;
+        }
       }
     }
   }
 
   &__item {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
 
     font-size: $font-size-4;
     line-height: 27px;
 
     @include breakpoint($breakpoint-laptop--medium) {
       font-size: $font-size-5;
+      line-height: 24px;
     }
 
     @include breakpoint($breakpoint-tablet) {
       font-size: $font-size-6;
+
+      line-height: 18px;
     }
 
     &:not(:last-child) {
