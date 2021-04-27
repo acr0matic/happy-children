@@ -1,4 +1,10 @@
 .nav {
+  &--mobile {
+    .nav__item:not(:last-child) {
+      margin-bottom: 10px;
+    }
+  }
+
   &__list {
     display: flex;
     align-items: center;
@@ -28,6 +34,10 @@
 
     font-size: $font-size-6;
     transition: 0.15s ease;
+
+    &--main {
+      font-weight: $weight-Bold;
+    }
 
     &:hover {
       @media (hover: hover) {

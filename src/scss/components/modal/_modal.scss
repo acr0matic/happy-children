@@ -43,6 +43,13 @@
   @include breakpoint($breakpoint-tablet) {
     font-size: $font-size-3;
   }
+
+  @include breakpoint($breakpoint-mobile--large) {
+    font-size: $font-size-4;
+    br {
+      display: none;
+    }
+  }
 }
 
 .modal__description {
@@ -64,11 +71,19 @@
   top: 28px;
   right: 20px;
 
+  width: 40px;
+  height: 40px;
+
   background-color: transparent;
   border: none;
   outline: none;
 
   cursor: pointer;
+
+  @include breakpoint($breakpoint-tablet) {
+    top: 15px;
+    right: 15px;
+  }
 
   svg {
     pointer-events: none;
