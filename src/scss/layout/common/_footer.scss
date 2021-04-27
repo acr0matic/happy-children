@@ -42,6 +42,10 @@
 
     cursor: pointer;
 
+    @include breakpoint($breakpoint-laptop--large) {
+      right: 35px;
+    }
+
     @include breakpoint($breakpoint-tablet--large) {
       display: none;
     }
