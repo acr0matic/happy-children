@@ -4,6 +4,7 @@ const dateFields = document.querySelectorAll('input[name="user_date"]');
 dateFields.forEach(field => {
   new Datepicker(field, {
     language: 'ru',
+    maxDate: new Date(),
   });
 });
 
