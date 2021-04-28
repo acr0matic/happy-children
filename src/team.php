@@ -16,7 +16,7 @@
           <div class="shape">
             <svg>
               <clipPath id="hero-wave" clipPathUnits="objectBoundingBox">
-                <path d="M 0 1 L 0 0 L 1 0 L 1 0.593 C 0.644 0.515 0.59 1.083 0 0.894" />
+                <path d="M 0 0.837 L 0 0 L 1 0 L 1 0.824 C 0.649 1.01 0.456 0.624 0 0.837" />
               </clipPath>
             </svg>
           </div>
