@@ -5,6 +5,7 @@ class Form {
     this.form = form;
 
     this.phone = form.querySelector('input[type=tel]');
+    this.date = form.querySelector('input[name=user_date]');
     this.action = form.getAttribute('action');
     this.redirect = form.getAttribute('data-redirect');
 
@@ -17,7 +18,8 @@ class Form {
     this.ValidateExpression = {
       phone: /^(\s*)?(\+)?([- _():=+]?\d[- _():=+]?){11}(\s*)?$/,
       name: /^[a-zA-Zа-яА-Я ]+$/,
-      message: /^\w{6,}/
+      message: /^\w{6,}/,
+      date: /[0-9]{2}\.[0-9]{2}\.[0-9]{4}/
     }
 
     this.Mask();
@@ -26,10 +28,18 @@ class Form {
 
   Mask() {
     // Маска для номера телефона
-    IMask(this.phone, {
+    if (this.phone) IMask(this.phone, {
       mask: '+{7} (000) 000-00-00',
       prepare: (appended, masked) => ((appended === '8' && masked.value === '') ? '' : appended),
     });
+
+    if (this.date) {
+      IMask(this.date, {
+        mask: Date,
+        min: new Date(1990, 0, 1),
+        max: new Date(),
+      });
+    }
   }
 
   Listener() {
@@ -70,6 +80,7 @@ class Form {
 
     const input_phone = this.form.querySelectorAll('input[type=tel]');
     const input_name = this.form.querySelectorAll('input[name=user_name], input[name=user_child]')
+    const input_date = this.form.querySelectorAll('input[name=user_date]');
     const input_message = this.form.querySelectorAll('textarea[name=user_message]')
 
     const Validate = (field, type) => {
@@ -84,9 +95,13 @@ class Form {
       if (input.hasAttribute('data-required')) Validate(input, 'name')
       else if (input.value !== '') Validate(input, 'name')
     });
+
+    input_date.forEach(input => {
+      if (input.value !== '') Validate(input, 'date')
+    });
+
     input_message.forEach(input => {
-      if (input.value !== '')
-        Validate(input, 'message')
+      if (input.value !== '') Validate(input, 'message')
     });
 
     return isValid;

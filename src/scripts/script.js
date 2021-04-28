@@ -1,5 +1,13 @@
 /* global tippy, MicroModal, SmoothScroll */
 
+const dateFields = document.querySelectorAll('input[name="user_date"]');
+dateFields.forEach(field => {
+  new Datepicker(field, {
+    language: 'ru',
+  });
+});
+
+
 const callbackModal = document.getElementById('modal-callback');
 
 const modalTitle = callbackModal.querySelector('.modal__title');
@@ -64,3 +72,4 @@ mobileOverlay.addEventListener('click', () => {
   mobileMenuButton.classList.remove('is-active');
   mobileMenu.classList.remove('mobile-menu--open');
 });
+

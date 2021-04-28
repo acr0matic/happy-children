@@ -129,6 +129,10 @@
   <script src="scripts/libraries/smoothScroll.js"></script>
   <script src="scripts/libraries/fslightbox.js"></script>
   <script src="scripts/libraries/imask.js"></script>
+
+  <script src="scripts/libraries/datepicker-full.min.js"></script>
+  <script src="scripts/libraries/locales/ru.js"></script>
+
   <script src="scripts/libraries/formController.js"></script>
 
   <script src="scripts/script.js"></script>

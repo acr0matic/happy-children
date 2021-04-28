@@ -3,6 +3,8 @@
 <!-- Основной контент -->
 <main>
   <section id="hero">
+  <input type="text" name="foo">
+
     <div class="container">
       <div class="hero">
         <div class="hero__content">
