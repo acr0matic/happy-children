@@ -14,10 +14,22 @@ tippy('.advantages__item', {
   zIndex: 10,
 });
 
+tippy('[data-tippy-content]', {
+  placement: 'right',
+  allowHTML: true,
+  maxWidth: 200,
+  arrow: false,
+  theme: 'children',
+});
+
+
 MicroModal.init({
   awaitCloseAnimation: true,
   disableFocus: true,
 });
+
+const forms = document.querySelectorAll('form');
+forms.forEach(form => new Form(form));
 
 const signButtons = document.querySelectorAll('[data-sign-type]');
 signButtons.forEach((button) => {

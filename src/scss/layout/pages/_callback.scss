@@ -3,6 +3,8 @@
 
 .callback {
   &__wrapper {
+    overflow: hidden;
+
     border-radius: $border-radius;
     padding: 48px;
 

@@ -1,10 +1,16 @@
 .input {
+  position: relative;
+
   &--error {
     .input__field {
       border-bottom-color: $input--error;
     }
-  }
 
+    .input__warning {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
 
   &__field {
     width: 100%;
@@ -24,5 +30,20 @@
     &::placeholder {
       color: $input__placeholder;
     }
+  }
+
+  &__warning {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+
+    transform: translateY(-50%);
+
+    cursor: help;
+
+    visibility: hidden;
+    opacity: 0;
+
+    transition: 0.15s ease;
   }
 }

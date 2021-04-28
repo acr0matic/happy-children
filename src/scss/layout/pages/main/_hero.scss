@@ -124,8 +124,9 @@
 
     @include breakpoint($breakpoint-mobile--large) {
       position: static;
-      margin: 0 auto 15px auto;
       order: 2;
+
+      margin: 0 auto 15px auto;
     }
   }
 

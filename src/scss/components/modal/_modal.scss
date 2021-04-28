@@ -17,11 +17,9 @@
   position: relative;
 
   width: 100%;
-  max-width: 580px;
+  overflow: hidden;
 
   border-radius: $border-radius;
-  padding: 48px;
-
   background-color: $palette-white;
 
   @include breakpoint($breakpoint-tablet) {

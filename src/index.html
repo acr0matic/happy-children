@@ -1433,26 +1433,34 @@
 
                 <form action="" class="callback__from form form-callback">
                   <div class="input mb-3">
-                    <input type="text" class="input__field" placeholder="Ваше ФИО">
+                    <input data-required type="text" class="input__field" name="user_name" placeholder="Ваше ФИО">
+                    <img data-tippy-content="Поле пустое или содержит ошибки" class="input__warning" src="img/icons/warning.svg" alt="">
                   </div>
                   <!-- /.input -->
 
                   <div class="input mb-3">
-                    <input type="text" class="input__field" placeholder="Имя ребенка">
+                    <input type="text" class="input__field" name="user_child" placeholder="Имя ребенка">
+                    <img data-tippy-content="Поле содержит ошибки" class="input__warning" src="img/icons/warning.svg" alt="">
                   </div>
                   <!-- /.input -->
 
                   <div class="input mb-3">
-                    <input type="text" class="input__field" placeholder="Дата рождения ребенка">
+                    <input type="text" class="input__field" name="user_date" placeholder="Дата рождения ребенка">
+                    <img data-tippy-content="Поле содержит ошибки" class="input__warning" src="img/icons/warning.svg" alt="">
                   </div>
                   <!-- /.input -->
 
-                  <div class="input input--error mb-5">
-                    <input type="tel" class="input__field" placeholder="+7 (111) 111 11 11">
+                  <div class="input mb-5">
+                    <input data-required type="tel" class="input__field" name="user_phone" placeholder="+7 (111) 111 11 11">
+                    <img data-tippy-content="Поле пустое или содержит ошибки" class="input__warning" src="img/icons/warning.svg" alt="">
                   </div>
                   <!-- /.input -->
 
-                  <button class="form__button button button-outline">Записаться</button>
+                  <div class="form__action">
+                    <button data-sending="Отправляем..." type="submit" class="form__button button button-outline d-flex mx-auto">Записаться</button>
+                    <img class="form__loader preloader--mini" src="img/loader.svg" alt="">
+                  </div>
+                  <!-- /.form__action -->
                 </form>
               </div>
               <!-- /.callback__wrapper -->
@@ -1544,7 +1552,7 @@
     <!-- /.container -->
   </footer>
 
-  <div class="modal micromodal-slide" id="modal-callback" data-modal-title="Запишитесь <br> на бесплатную экскурсию">
+  <div class="modal modal-callback micromodal-slide" id="modal-callback" data-modal-title="Запишитесь <br> на бесплатную экскурсию">
     <div class="modal__overlay" data-micromodal-close>
       <div class="modal__container">
         <div class="modal__header">
@@ -1574,26 +1582,34 @@
         <div class="modal__content">
           <form action="" class="callback__from form form-callback">
             <div class="input mb-3">
-              <input type="text" class="input__field" placeholder="Ваше ФИО">
+              <input data-required type="text" class="input__field" name="user_name" placeholder="Ваше ФИО">
+              <img data-tippy-content="Поле пустое или содержит ошибки" class="input__warning" src="img/icons/warning.svg" alt="">
             </div>
             <!-- /.input -->
 
             <div class="input mb-3">
-              <input type="text" class="input__field" placeholder="Имя ребенка">
+              <input type="text" class="input__field" name="user_child" placeholder="Имя ребенка">
+              <img data-tippy-content="Поле содержит ошибки" class="input__warning" src="img/icons/warning.svg" alt="">
             </div>
             <!-- /.input -->
 
             <div class="input mb-3">
-              <input type="text" class="input__field" placeholder="Дата рождения ребенка">
+              <input type="text" class="input__field" name="user_date" placeholder="Дата рождения ребенка">
+              <img data-tippy-content="Поле содержит ошибки" class="input__warning" src="img/icons/warning.svg" alt="">
             </div>
             <!-- /.input -->
 
-            <div class="input input--error mb-5">
-              <input type="tel" class="input__field" placeholder="+7 (111) 111 11 11">
+            <div class="input mb-5">
+              <input data-required type="tel" class="input__field" name="user_phone" placeholder="+7 (111) 111 11 11">
+              <img data-tippy-content="Поле пустое или содержит ошибки" class="input__warning" src="img/icons/warning.svg" alt="">
             </div>
             <!-- /.input -->
 
-            <button class="form__button button button-outline d-flex mx-auto">Записаться</button>
+            <div class="form__action">
+              <button data-sending="Отправляем..." type="submit" class="form__button button button-outline d-flex mx-auto">Записаться</button>
+              <img class="form__loader preloader--mini" src="img/loader.svg" alt="">
+            </div>
+            <!-- /.form__action -->
           </form>
         </div>
         <!-- /.modal__content -->
@@ -1612,6 +1628,8 @@
   <script src="scripts/libraries/micromodal.js"></script>
   <script src="scripts/libraries/smoothScroll.js"></script>
   <script src="scripts/libraries/fslightbox.js"></script>
+  <script src="scripts/libraries/imask.js"></script>
+  <script src="scripts/libraries/formController.js"></script>
 
   <script src="scripts/script.js"></script>
   <script src="scripts/sliders.js"></script>
