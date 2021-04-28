@@ -52,6 +52,13 @@
       line-height: 18px;
     }
 
+    &--head {
+      &::before {
+        content: "" !important;
+        margin-right: 0 !important;
+      }
+    }
+
     &:not(:last-child) {
       margin-bottom: 15px;
 

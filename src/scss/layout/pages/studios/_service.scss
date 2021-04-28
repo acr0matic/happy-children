@@ -1,0 +1,49 @@
+#service {
+}
+
+.service {
+  &__item {
+    &:not(:last-child) {
+      margin-bottom: 150px;
+
+      @include breakpoint($breakpoint-laptop--medium) {
+        margin-bottom: 100px;
+      }
+    }
+
+    &:nth-child(3n + 1) {
+      .text-block__picture {
+        background-color: $palette-yellow;
+      }
+    }
+
+    &:nth-child(3n + 2) {
+      .text-block__picture {
+        background-color: $palette-purple;
+      }
+    }
+
+    &:nth-child(3n + 3) {
+      .text-block__picture {
+        background-color: $palette-darkblue;
+      }
+    }
+
+    &:nth-child(3n + 4) {
+      .text-block__picture {
+        background-color: $palette-blue;
+      }
+    }
+
+    @include odd() {
+      .row {
+        flex-direction: row-reverse;
+
+        .text-block__image {
+          right: initial;
+          left: 0;
+        }
+      }
+    }
+  }
+}
