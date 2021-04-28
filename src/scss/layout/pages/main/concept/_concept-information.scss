@@ -7,19 +7,19 @@
     }
 
     &:nth-child(3n + 1) {
-      .concept-information__picture {
+      .text-block__picture {
         background-color: $palette-darkblue;
       }
     }
 
     &:nth-child(3n + 2) {
-      .concept-information__picture {
+      .text-block__picture {
         background-color: $palette-purple;
       }
     }
 
     &:nth-child(3n + 3) {
-      .concept-information__picture {
+      .text-block__picture {
         background-color: $palette-yellow;
       }
     }
@@ -27,93 +27,10 @@
     @include even() {
       flex-direction: row-reverse;
 
-      .concept-information__image {
+      .text-block__image {
         right: initial;
         left: 0;
       }
-    }
-  }
-
-  &__content {
-    border-radius: $border-radius;
-    padding: 48px;
-
-    background-color: $palette-white;
-    box-shadow: $shadow;
-
-    @include breakpoint($breakpoint-mobile--large) {
-      padding: 48px 15px;
-    }
-  }
-
-  &__title {
-    @include breakpoint($breakpoint-tablet--large) {
-      margin-bottom: 20px;
-    }
-  }
-
-  &__text {
-    margin-bottom: 25px;
-    font-size: $font-size-4;
-
-    @include breakpoint($breakpoint-mobile--large) {
-      font-size: $font-size-6;
-    }
-  }
-
-  &__action {
-  }
-
-  &__picture {
-    position: relative;
-    background-color: $palette-yellow;
-    border-radius: 50%;
-
-    width: 100%;
-    max-width: 577px;
-    height: 577px;
-
-    @include breakpoint($breakpoint-laptop--medium) {
-      width: 380px;
-      height: 380px;
-    }
-
-    @include breakpoint($breakpoint-tablet--large) {
-      display: none;
-    }
-
-    @include breakpoint($breakpoint-tablet) {
-      display: block;
-      width: 295px;
-      height: 295px;
-    }
-  }
-
-  &__image {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-
-    width: 525px;
-    height: 525px;
-
-    border-radius: 50%;
-
-    @include breakpoint($breakpoint-laptop--medium) {
-      width: 360px;
-      height: 360px;
-    }
-
-    @include breakpoint($breakpoint-tablet) {
-      width: 270px;
-      height: 270px;
-    }
-  }
-
-  &__button {
-    @include breakpoint($breakpoint-tablet) {
-      display: block;
-      margin: 0 auto;
     }
   }
 }

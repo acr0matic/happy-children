@@ -17,17 +17,32 @@
   &__title {
     margin-bottom: 22px;
 
-    font-size: 36px;
+    font-size: 32px;
     font-weight: $weight-Regular;
+
+    line-height: 40px;
 
     @include breakpoint($breakpoint-tablet--large) {
       font-size: 24px;
+      line-height: 32px;
+
+      br {
+        display: none;
+      }
     }
   }
 
   &__text {
     margin-bottom: 25px;
     font-size: $font-size-4;
+
+    @include breakpoint($breakpoint-tablet) {
+      font-size: $font-size-6;
+    }
+
+    &--small {
+      font-size: $font-size-5;
+    }
   }
 
   &__action {

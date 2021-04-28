@@ -11,7 +11,7 @@
             <source srcset="img/page/team/hero__image.webp" type="image/webp">
             <img src="img/page/team/hero__image.img" alt="" class="team__image">
           </picture>
-          <!-- /.team__picture -->
+          <!-- /.text-block__picture -->
 
           <div class="shape">
             <svg>
@@ -21,27 +21,27 @@
             </svg>
           </div>
         </div>
-        <!-- /.team__hero -->
+        <!-- /.text-block__hero -->
 
-        <div class="team__list">
-          <div class="team__item">
+        <div class="text-block__list">
+          <div class="text-block__item">
             <div class="row align-items-center">
               <div class="col-12 col-lg-5 col-xl-6 mb-4 mb-lg-0">
-                <div class="team__photo mx-auto mx-lg-0">
-                  <img class="team__image" src="img/page/main/about/photo.jpg" alt="">
+                <div class="text-block__picture mx-auto mx-lg-0">
+                  <img class="text-block__image" src="img/page/main/about/photo.jpg" alt="">
                 </div>
                 <!-- /.about__picture -->
               </div>
               <!-- /.col-6 -->
 
               <div class="col-12 col-lg-7 col-xl-6">
-                <div class="team__content">
-                  <h2 class="team__name">
+                <div class="text-block__content">
+                  <h2 class="text-block__title">
                     Елена
                   </h2>
 
-                  <div class="team__text">
-                    <p class="team__text section__text">
+                  <div class="text-block__text">
+                    <p class="text-block__text section__text">
                       <strong>Педагог</strong>, преподаватель английского языка. Высшее педагогическое и психологическое образование. Прошла обучение и стажировку в США по программе английского языка «FastTracKids». Опыт работы более 12 лет. Огромное количество различных тренингов и курсов, среди которых психолого-педагогическое сопровождение развития эмоционального интеллекта детей дошкольного возраста.
                     </p>
                   </div>
@@ -53,26 +53,26 @@
             </div>
             <!-- /.row -->
           </div>
-          <!-- /.team__item -->
+          <!-- /.text-block__item -->
 
-          <div class="team__item">
+          <div class="text-block__item">
             <div class="row align-items-center">
               <div class="col-12 col-lg-5 col-xl-6 mb-4 mb-lg-0">
-                <div class="team__photo mx-auto mx-lg-0">
-                  <img class="team__image" src="img/page/main/about/photo.jpg" alt="">
+                <div class="text-block__picture mx-auto mx-lg-0">
+                  <img class="text-block__image" src="img/page/main/about/photo.jpg" alt="">
                 </div>
                 <!-- /.about__picture -->
               </div>
               <!-- /.col-6 -->
 
               <div class="col-12 col-lg-7 col-xl-6">
-                <div class="team__content">
-                  <h2 class="team__name">
+                <div class="text-block__content">
+                  <h2 class="text-block__title">
                     Елена
                   </h2>
 
-                  <div class="team__text">
-                    <p class="team__text section__text">
+                  <div class="text-block__text">
+                    <p class="text-block__text section__text">
                       <strong>Педагог</strong>, преподаватель английского языка. Высшее педагогическое и психологическое образование. Прошла обучение и стажировку в США по программе английского языка «FastTracKids». Опыт работы более 12 лет. Огромное количество различных тренингов и курсов, среди которых психолого-педагогическое сопровождение развития эмоционального интеллекта детей дошкольного возраста.
                     </p>
                   </div>
@@ -84,26 +84,26 @@
             </div>
             <!-- /.row -->
           </div>
-          <!-- /.team__item -->
+          <!-- /.text-block__item -->
 
-          <div class="team__item">
+          <div class="text-block__item">
             <div class="row align-items-center">
               <div class="col-12 col-lg-5 col-xl-6 mb-4 mb-lg-0">
-                <div class="team__photo mx-auto mx-lg-0">
-                  <img class="team__image" src="img/page/main/about/photo.jpg" alt="">
+                <div class="text-block__picture mx-auto mx-lg-0">
+                  <img class="text-block__image" src="img/page/main/about/photo.jpg" alt="">
                 </div>
                 <!-- /.about__picture -->
               </div>
               <!-- /.col-6 -->
 
               <div class="col-12 col-lg-7 col-xl-6">
-                <div class="team__content">
-                  <h2 class="team__name">
+                <div class="text-block__content">
+                  <h2 class="text-block__title">
                     Елена
                   </h2>
 
-                  <div class="team__text">
-                    <p class="team__text section__text">
+                  <div class="text-block__text">
+                    <p class="text-block__text section__text">
                       <strong>Педагог</strong>, преподаватель английского языка. Высшее педагогическое и психологическое образование. Прошла обучение и стажировку в США по программе английского языка «FastTracKids». Опыт работы более 12 лет. Огромное количество различных тренингов и курсов, среди которых психолого-педагогическое сопровождение развития эмоционального интеллекта детей дошкольного возраста.
                     </p>
                   </div>
@@ -115,26 +115,26 @@
             </div>
             <!-- /.row -->
           </div>
-          <!-- /.team__item -->
+          <!-- /.text-block__item -->
 
-          <div class="team__item">
+          <div class="text-block__item">
             <div class="row align-items-center">
               <div class="col-12 col-lg-5 col-xl-6 mb-4 mb-lg-0">
-                <div class="team__photo mx-auto mx-lg-0">
-                  <img class="team__image" src="img/page/main/about/photo.jpg" alt="">
+                <div class="text-block__picture mx-auto mx-lg-0">
+                  <img class="text-block__image" src="img/page/main/about/photo.jpg" alt="">
                 </div>
                 <!-- /.about__picture -->
               </div>
               <!-- /.col-6 -->
 
               <div class="col-12 col-lg-7 col-xl-6">
-                <div class="team__content">
-                  <h2 class="team__name">
+                <div class="text-block__content">
+                  <h2 class="text-block__title">
                     Елена
                   </h2>
 
-                  <div class="team__text">
-                    <p class="team__text section__text">
+                  <div class="text-block__text">
+                    <p class="text-block__text section__text">
                       <strong>Педагог</strong>, преподаватель английского языка. Высшее педагогическое и психологическое образование. Прошла обучение и стажировку в США по программе английского языка «FastTracKids». Опыт работы более 12 лет. Огромное количество различных тренингов и курсов, среди которых психолого-педагогическое сопровождение развития эмоционального интеллекта детей дошкольного возраста.
                     </p>
                   </div>
@@ -146,9 +146,9 @@
             </div>
             <!-- /.row -->
           </div>
-          <!-- /.team__item -->
+          <!-- /.text-block__item -->
         </div>
-        <!-- /.team__list -->
+        <!-- /.text-block__list -->
       </div>
       <!-- /.team -->
     </div>

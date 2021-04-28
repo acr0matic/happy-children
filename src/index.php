@@ -62,45 +62,45 @@
       <div class="about">
         <div class="row">
           <div class="col-12 col-lg-5 col-xl-6 mb-4 mb-lg-0">
-            <div class="about__picture mx-auto mx-lg-0">
+            <div class="text-block__picture mx-auto mx-lg-0">
               <picture>
                 <source srcset="img/page/main/about/photo.webp" type="image/webp">
-                <img class="about__image" src="img/page/main/about/photo.jpg" alt="">
+                <img class="text-block__image" src="img/page/main/about/photo.jpg" alt="">
               </picture>
             </div>
-            <!-- /.about__picture -->
+            <!-- /.text-block__picture -->
           </div>
           <!-- /.col-6 -->
 
           <div class="col-12 col-lg-7 col-xl-6">
-            <div class="about__content">
-              <h2 class="about__title section__title">
+            <div class="text-block__content">
+              <h2 class="text-block__title section__title">
                 Здесь начинается
                 <br>
                 жизненная уверенность
               </h2>
 
-              <div class="about__text">
-                <p class="about__text section__text">
+              <div class="text-block__wrapper">
+                <p class="text-block__text text-block__text--small section__text">
                   Все мы когда-то были детьми. Помочь ребенку не потерять детство, но при этом правильно подготовиться к современным и будущим требованиям успешной жизни – вот совместная задача родителей и детского садика нового поколения.
                 </p>
 
-                <p class="about__text section__text">
+                <p class="text-block__text text-block__text--small section__text">
                   Мы узнавали мир на ощупь, кормили голубей, лепили снеговиков, устраивали бои в снежной крепости, повторяли за мамой с папой новые слова, задавали тысячи разных «Почему?», мечтали и открывали для себя этот мир. Мы учились любить, сопереживать, поддерживать.
                 </p>
 
-                <p class="about__text section__text">
+                <p class="text-block__text text-block__text--small section__text">
                   Лучшее вложение в своего ребенка - счастливое детство. Поэтому, выбирая для малыша детский сад, вы выбираете не только его настоящее, но и будущее!
                 </p>
               </div>
-              <!-- /.about__text -->
+              <!-- /.text-block__text -->
 
-              <div class="about__action">
-                <button class="about__button button button-outline" data-micromodal-trigger="modal-callback">Записаться на экскурсию</button>
+              <div class="text-block__action">
+                <button class="text-block__button button button-outline" data-micromodal-trigger="modal-callback">Записаться на экскурсию</button>
               </div>
-              <!-- /.about__action -->
+              <!-- /.text-block__wrapper -->
             </div>
-            <!-- /.about__content -->
+            <!-- /.text-block__content -->
           </div>
           <!-- /.col-6 -->
         </div>
@@ -462,13 +462,13 @@
         </div>
         <!-- /.concept__cards concept-cards -->
 
-        <div class="concept__information concept-information">
+        <div class="concept__information concept-information text-block">
           <div class="row align-items-center">
             <div class="col-12 col-lg-5 col-xl-6">
-              <div class="concept-information__picture mx-auto mx-lg-0 mb-4 mb-lg-0">
+              <div class="text-block__picture mx-auto mx-lg-0 mb-4 mb-lg-0">
                 <picture>
                   <source srcset="img/page/main/concept/photos/1.webp" type="image/webp">
-                  <img class="concept-information__image" src="img/page/main/concept/photos/1.jpg" alt="">
+                  <img class="text-block__image" src="img/page/main/concept/photos/1.jpg" alt="">
                 </picture>
               </div>
               <!-- /.about__picture -->
@@ -476,30 +476,32 @@
             <!-- /.col-6 -->
 
             <div class="col-12 col-lg-7 col-xl-6">
-              <div class="concept-information__content">
-                <h2 class="concept-information__title section__title">
+              <div class="text-block__content">
+                <h2 class="text-block__title section__title">
                   Инновации в нашем
                   <br>
                   детском саду
                 </h2>
 
-                <div class="concept-information__text">
-                  <p class="concept-information__text section__text">
+                <div class="text-block__wrapper">
+                  <p class="text-block__text section__text">
                     Частный детский сад Happy Children использует уникальные методики, благодаря которым дети смогут развить свои исключительные способности и коммуникативные навыки, а также научатся:
                   </p>
 
-                  <ul class="concept-information__list list list--line">
+                  <ul class="text-block__list list list--line">
                     <li class="list__item">Знать свои эмоции</li>
                     <li class="list__item">Управлять эмоциями</li>
                     <li class="list__item">Мотивировать самого себя</li>
                     <li class="list__item">Распознавать эмоции других людей</li>
                     <li class="list__item">Поддерживать взаимоотношения</li>
                   </ul>
+
+                  <br>
                 </div>
                 <!-- /.about__text -->
 
-                <div class="concept-information__action">
-                  <button class="concept-information__button button button-outline" data-micromodal-trigger="modal-callback">Записаться на экскурсию</button>
+                <div class="text-block__action">
+                  <button class="text-block__button button button-outline" data-micromodal-trigger="modal-callback">Записаться на экскурсию</button>
                 </div>
                 <!-- /.about__action -->
               </div>
@@ -511,10 +513,10 @@
 
           <div class="row align-items-center">
             <div class="col-12 col-lg-5 col-xl-6">
-              <div class="concept-information__picture mx-auto mx-lg-0 mb-4 mb-lg-0">
+              <div class="text-block__picture mx-auto mx-lg-0 mb-4 mb-lg-0">
                 <picture>
                   <source srcset="img/page/main/concept/photos/2.webp" type="image/webp">
-                  <img class="concept-information__image" src="img/page/main/concept/photos/2.jpg" alt="">
+                  <img class="text-block__image" src="img/page/main/concept/photos/2.jpg" alt="">
                 </picture>
               </div>
               <!-- /.about__picture -->
@@ -522,29 +524,30 @@
             <!-- /.col-6 -->
 
             <div class="col-12 col-lg-7 col-xl-6">
-              <div class="concept-information__content">
-                <h2 class="concept-information__title section__title">
+              <div class="text-block__content">
+                <h2 class="text-block__title section__title">
                   Индивидуальный подход
                   <br>
                   и комфорт
                 </h2>
 
-                <div class="concept-information__text">
-                  <p class="concept-information__text section__text">
+                <div class="text-block__wrapper">
+                  <p class="text-block__text section__text">
                     Питание составляет детский диетолог с учётом особенностей здоровья и образа жизни ребёнка.
                     Возможность поменять меню:
                   </p>
 
-                  <ul class="concept-information__list list list--line">
+                  <ul class="text-block__list list list--line">
                     <li class="list__item">Выбрать веганские и вегетарианские позиции, исключить блюда с возможными аллергенами</li>
                     <li class="list__item">Распланированный режим игры и отдыха</li>
                     <li class="list__item">Постоянная доступность педагогов и воспитателей</li>
                   </ul>
+                  <br>
                 </div>
                 <!-- /.about__text -->
 
-                <div class="concept-information__action">
-                  <button class="concept-information__button button button-outline" data-micromodal-trigger="modal-callback">Записаться на экскурсию</button>
+                <div class="text-block__action">
+                  <button class="text-block__button button button-outline" data-micromodal-trigger="modal-callback">Записаться на экскурсию</button>
                 </div>
                 <!-- /.about__action -->
               </div>
@@ -556,10 +559,10 @@
 
           <div class="row align-items-center">
             <div class="col-12 col-lg-5 col-xl-6">
-              <div class="concept-information__picture mx-auto mx-lg-0 mb-4 mb-lg-0">
+              <div class="text-block__picture mx-auto mx-lg-0 mb-4 mb-lg-0">
                 <picture>
                   <source srcset="img/page/main/concept/photos/3.webp" type="image/webp">
-                  <img class="concept-information__image" src="img/page/concept/photos/3.jpg" alt="">
+                  <img class="text-block__image" src="img/page/concept/photos/3.jpg" alt="">
                 </picture>
               </div>
               <!-- /.about__picture -->
@@ -567,28 +570,28 @@
             <!-- /.col-6 -->
 
             <div class="col-12 col-lg-7 col-xl-6">
-              <div class="concept-information__content">
-                <h2 class="concept-information__title section__title">
+              <div class="text-block__content">
+                <h2 class="text-block__title section__title">
                   Атмосфера
                 </h2>
 
-                <div class="concept-information__text">
-                  <p class="concept-information__text section__text">
+                <div class="text-block__wrapper">
+                  <p class="text-block__text section__text">
                     Дети с большим удовольствием ходят в Happy Children, ждут общения друг с другом, с восторгом рассказывают родителям, как прошел день.
                   </p>
 
-                  <p class="concept-information__text section__text">
+                  <p class="text-block__text section__text">
                     Мы создали в нашем детском саду теплую семейную атмосферу, которой очень дорожим. Happy Children — это тематические праздники, костюмированные представления, выездные экскурсии.
                   </p>
 
-                  <p class="concept-information__text section__text">
+                  <p class="text-block__text section__text">
                     Одна из важных целей команды Happy Children — наполнить жизнь малышей яркими эмоциями и событиями, подарить им незабываемое детство.
                   </p>
                 </div>
                 <!-- /.about__text -->
 
-                <div class="concept-information__action">
-                  <button class="concept-information__button button button-outline" data-micromodal-trigger="modal-callback">Записаться на экскурсию</button>
+                <div class="text-block__action">
+                  <button class="text-block__button button button-outline" data-micromodal-trigger="modal-callback">Записаться на экскурсию</button>
                 </div>
                 <!-- /.about__action -->
               </div>

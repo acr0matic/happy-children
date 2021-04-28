@@ -40,7 +40,17 @@
     }
   }
 
-  &__item {
+  &__title {
+    padding-top: 150px;
+    color: $text-white;
+
+    @include breakpoint($breakpoint-tablet--large) {
+      padding-top: 100px;
+      text-align: center;
+    }
+  }
+
+  .text-block__item {
     &:not(:last-child) {
       margin-bottom: 150px;
 
@@ -54,22 +64,10 @@
         flex-direction: row-reverse;
       }
 
-      .team__photo {
-        .team__image {
-          right: initial;
-          left: 0;
-        }
+      .text-block__image {
+        right: initial;
+        left: 0;
       }
-    }
-  }
-
-  &__title {
-    padding-top: 185px;
-    color: $text-white;
-
-    @include breakpoint($breakpoint-tablet--large) {
-      padding-top: 120px;
-      text-align: center;
     }
   }
 
@@ -92,66 +90,6 @@
     @include breakpoint($breakpoint-tablet--large) {
       display: none;
     }
-  }
-
-  &__content {
-    border-radius: $border-radius;
-    padding: 48px;
-
-    background-color: $palette-white;
-    box-shadow: $shadow;
-
-    @include breakpoint($breakpoint-mobile--large) {
-      padding: 32px 15px;
-    }
-  }
-
-  &__photo {
-    position: relative;
-    background-color: $palette-yellow;
-    border-radius: 50%;
-
-    width: 100%;
-    max-width: 577px;
-    height: 577px;
-
-    @include breakpoint($breakpoint-laptop--medium) {
-      width: 380px;
-      height: 380px;
-    }
-
-    @include breakpoint($breakpoint-tablet) {
-      width: 295px;
-      height: 295px;
-    }
-
-    .team__image {
-      position: absolute;
-      right: 0;
-      bottom: 0;
-
-      width: 525px;
-      height: 525px;
-
-      border-radius: 50%;
-
-      @include breakpoint($breakpoint-laptop--medium) {
-        width: 360px;
-        height: 360px;
-      }
-
-      @include breakpoint($breakpoint-tablet) {
-        width: 270px;
-        height: 270px;
-      }
-    }
-  }
-
-  &__name {
-    margin-bottom: 22px;
-
-    font-size: 36px;
-    font-weight: $weight-Regular;
   }
 
   &__image {
