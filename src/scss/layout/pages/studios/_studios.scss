@@ -1,0 +1,57 @@
+#studios {
+  position: relative;
+
+  &::after {
+    content: "";
+
+    position: absolute;
+    z-index: -1;
+
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    height: 575px;
+
+    background-color: $palette-darkblue;
+    background-image: url("../img/pattern/darkblue.svg");
+
+    clip-path: url(#hero-wave);
+
+    @include breakpoint($breakpoint-tablet--large) {
+      height: 305px;
+    }
+  }
+}
+
+.studios {
+  position: relative;
+
+  padding-top: 125px;
+  padding-bottom: 200px;
+
+  color: $text-white;
+
+  &__title {
+    margin-bottom: 20px;
+  }
+
+  &__action .button-outline {
+    color: $text-white;
+  }
+
+
+  &__picture {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    display: block;
+    width: 650px;
+  }
+
+  &__image {
+    width: 100%;
+  }
+}
