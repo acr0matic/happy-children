@@ -5,7 +5,7 @@ const callbackModal = document.getElementById('modal-callback');
 const modalTitle = callbackModal.querySelector('.modal__title');
 let formType = '';
 
-tippy('.advantages__item', {
+tippy('.advantages__item[data-tippy-content]', {
   placement: 'bottom',
   allowHTML: true,
   maxWidth: 380,
@@ -14,7 +14,7 @@ tippy('.advantages__item', {
   zIndex: 10,
 });
 
-tippy('[data-tippy-content]', {
+tippy('img[data-tippy-content]', {
   placement: 'right',
   allowHTML: true,
   maxWidth: 200,
