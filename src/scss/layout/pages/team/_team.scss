@@ -1,0 +1,161 @@
+#team {
+  position: relative;
+
+  &::after {
+    content: "";
+
+    position: absolute;
+    z-index: -1;
+
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    height: 500px;
+
+    background-color: $palette-yellow;
+    background-image: url("../img/pattern/yellow.svg");
+
+    clip-path: url(#hero-wave);
+
+    @include breakpoint($breakpoint-tablet--large) {
+      height: 305px;
+      clip-path: url(#hero-wave--mobile);
+    }
+  }
+}
+
+.team {
+  position: relative;
+
+  &__hero {
+    padding-bottom: 400px;
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      padding-bottom: 350px;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      padding-bottom: 200px;
+    }
+  }
+
+  &__item {
+    &:not(:last-child) {
+      margin-bottom: 150px;
+
+      @include breakpoint($breakpoint-tablet) {
+        margin-bottom: 100px;
+      }
+    }
+
+    @include even() {
+      .row {
+        flex-direction: row-reverse;
+      }
+
+      .team__photo {
+        .team__image {
+          right: initial;
+          left: 0;
+        }
+      }
+    }
+  }
+
+  &__title {
+    padding-top: 185px;
+    color: $text-white;
+
+    @include breakpoint($breakpoint-tablet--large) {
+      padding-top: 120px;
+      text-align: center;
+    }
+  }
+
+  &__picture {
+    position: absolute;
+    top: 50px;
+    right: 0;
+
+    display: block;
+    width: 630px;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      width: 580px;
+    }
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      width: 500px;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      display: none;
+    }
+  }
+
+  &__content {
+    border-radius: $border-radius;
+    padding: 48px;
+
+    background-color: $palette-white;
+    box-shadow: $shadow;
+
+    @include breakpoint($breakpoint-mobile--large) {
+      padding: 32px 15px;
+    }
+  }
+
+  &__photo {
+    position: relative;
+    background-color: $palette-yellow;
+    border-radius: 50%;
+
+    width: 100%;
+    max-width: 577px;
+    height: 577px;
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      width: 380px;
+      height: 380px;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      width: 295px;
+      height: 295px;
+    }
+
+    .team__image {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+
+      width: 525px;
+      height: 525px;
+
+      border-radius: 50%;
+
+      @include breakpoint($breakpoint-laptop--medium) {
+        width: 360px;
+        height: 360px;
+      }
+
+      @include breakpoint($breakpoint-tablet) {
+        width: 270px;
+        height: 270px;
+      }
+    }
+  }
+
+  &__name {
+    margin-bottom: 22px;
+
+    font-size: 36px;
+    font-weight: $weight-Regular;
+  }
+
+  &__image {
+    width: 100%;
+  }
+}

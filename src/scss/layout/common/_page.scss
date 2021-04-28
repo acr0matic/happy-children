@@ -1,0 +1,9 @@
+.page {
+  &__title {
+    font-size: 54px;
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      font-size: 36px;
+    }
+  }
+}
