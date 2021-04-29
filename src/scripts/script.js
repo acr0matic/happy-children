@@ -8,15 +8,11 @@ dateFields.forEach(field => {
   });
 });
 
-const choices = new Choices('[data-trigger]', {
+const selectList = document.querySelector('[data-trigger]');
+if (selectList) new Choices('[data-trigger]', {
   searchEnabled: false,
   itemSelectText: 'Выбрать',
 });
-
-const callbackModal = document.getElementById('modal-callback');
-
-const modalTitle = callbackModal.querySelector('.modal__title');
-let formType = '';
 
 tippy('.advantages__item[data-tippy-content]', {
   placement: 'bottom',
@@ -35,29 +31,8 @@ tippy('img[data-tippy-content]', {
   theme: 'children',
 });
 
-
-MicroModal.init({
-  awaitCloseAnimation: true,
-  disableFocus: true,
-});
-
 const forms = document.querySelectorAll('form');
 forms.forEach(form => new Form(form));
-
-const signButtons = document.querySelectorAll('[data-sign-type]');
-signButtons.forEach((button) => {
-  button.addEventListener('click', () => {
-    formType = button.getAttribute('data-sign-type');
-    modalTitle.innerHTML = button.getAttribute('data-modal-title');
-  });
-});
-
-const modalButtons = document.querySelectorAll('[data-micromodal-trigger]:not([data-modal-title])');
-modalButtons.forEach((button) => {
-  button.addEventListener('click', () => {
-    modalTitle.innerHTML = callbackModal.getAttribute('data-modal-title');
-  });
-});
 
 // eslint-disable-next-line no-restricted-globals
 SmoothScroll();

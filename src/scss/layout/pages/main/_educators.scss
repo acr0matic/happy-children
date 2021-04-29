@@ -1,5 +1,6 @@
 .educators {
   position: relative;
+
   &__item {
     display: flex;
     flex-direction: column;
@@ -53,33 +54,19 @@
     font-size: $font-size-2;
   }
 
-  &__more {
-    color: #5ec2eb;
-    font-weight: $weight-Bold;
-
-    transition: 0.15s ease;
-
-    @include breakpoint($breakpoint-mobile--large) {
-      display: block;
-      margin-bottom: 15px;
-    }
-
-    &:hover {
-      color: $text-black;
-
-      .educators__icon {
-        path {
-          fill: $text-black;
-        }
-      }
-    }
+  &__action {
+    display: flex;
+    justify-content: center;
   }
 
-  &__icon {
-    margin-left: 10px;
+  &__button {
+    margin-top: 40px;
 
-    path {
-      transition: 0.15s ease;
+    padding-left: 80px;
+    padding-right: 80px;
+
+    @include breakpoint($breakpoint-laptop--large) {
+      margin-top: 90px;
     }
   }
 }

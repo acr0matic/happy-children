@@ -3,8 +3,6 @@
 <!-- Основной контент -->
 <main>
   <section id="hero">
-  <input type="text" name="foo">
-
     <div class="container">
       <div class="hero">
         <div class="hero__content">
@@ -23,8 +21,8 @@
           <!-- /.hero__important -->
 
           <div class="hero__action order-4">
-            <button class="hero__button button button-primary me-sm-3 mb-3 mb-md-0" data-micromodal-trigger="modal-callback">Записаться на экскурсию</button>
-            <button class="hero__button button button-outline">Позвонить</button>
+            <button class="hero__button button button-primary me-sm-3 mb-3 mb-md-0" data-micromodal-trigger="modal-callback" data-modal-target="excursion">Записаться на экскурсию</button>
+            <button class="hero__button button button-outline" onclick="window.open('tel:+79653171030', '_self');">Позвонить</button>
           </div>
           <!-- /.hero__action -->
         </div>
@@ -98,7 +96,7 @@
               <!-- /.text-block__text -->
 
               <div class="text-block__action">
-                <button class="text-block__button button button-outline" data-micromodal-trigger="modal-callback">Записаться на экскурсию</button>
+                <button class="text-block__button button button-outline" data-micromodal-trigger="modal-callback" data-modal-target="excursion">Записаться на экскурсию</button>
               </div>
               <!-- /.text-block__wrapper -->
             </div>
@@ -348,7 +346,7 @@
         </div>
         <!-- /.swiper-controls -->
 
-        <button class="button button-primary button-primary--inverted d-block mx-auto" data-micromodal-trigger="modal-callback">Записаться на экскурсию</button>
+        <button class="button button-primary button-primary--inverted d-block mx-auto" data-micromodal-trigger="modal-callback" data-modal-target="excursion">Записаться на экскурсию</button>
       </div>
       <!-- /.gallery -->
     </div>
@@ -503,7 +501,7 @@
                 <!-- /.about__text -->
 
                 <div class="text-block__action">
-                  <button class="text-block__button button button-outline" data-micromodal-trigger="modal-callback">Записаться на экскурсию</button>
+                  <button class="text-block__button button button-outline" data-micromodal-trigger="modal-callback" data-modal-target="excursion">Записаться на экскурсию</button>
                 </div>
                 <!-- /.about__action -->
               </div>
@@ -549,7 +547,7 @@
                 <!-- /.about__text -->
 
                 <div class="text-block__action">
-                  <button class="text-block__button button button-outline" data-micromodal-trigger="modal-callback">Записаться на экскурсию</button>
+                  <button class="text-block__button button button-outline" data-micromodal-trigger="modal-callback" data-modal-target="excursion">Записаться на экскурсию</button>
                 </div>
                 <!-- /.about__action -->
               </div>
@@ -593,7 +591,7 @@
                 <!-- /.about__text -->
 
                 <div class="text-block__action">
-                  <button class="text-block__button button button-outline" data-micromodal-trigger="modal-callback">Записаться на экскурсию</button>
+                  <button class="text-block__button button button-outline" data-micromodal-trigger="modal-callback" data-modal-target="excursion">Записаться на экскурсию</button>
                 </div>
                 <!-- /.about__action -->
               </div>
@@ -1040,7 +1038,7 @@
                 </div>
                 <!-- /.condition-card__wrapper -->
 
-                <button data-micromodal-trigger="modal-callback" data-modal-title="Запись на <br> утро/вечер" data-sign-type="morning-evening" class="condition-card__button button button-outline">Записаться</button>
+                <button data-micromodal-trigger="modal-callback" data-modal-target="sign-up" data-modal-additional="morning-evening" data-modal-title="Запись на <br> утро/вечер" class="condition-card__button button button-outline">Записаться</button>
               </div>
               <!-- /.condition-card__content -->
             </div>
@@ -1080,7 +1078,7 @@
                 </div>
                 <!-- /.condition-card__wrapper -->
 
-                <button data-micromodal-trigger="modal-callback" data-modal-title="Запись на <br> весь день" data-sign-type="all-day" class="condition-card__button button button-outline">Записаться</button>
+                <button data-micromodal-trigger="modal-callback" data-modal-target="sign-up" data-modal-additional="all-day" data-modal-title="Запись на <br> весь день" class="condition-card__button button button-outline">Записаться</button>
               </div>
               <!-- /.condition-card__content -->
             </div>
@@ -1115,13 +1113,6 @@
                 <div class="educators__content">
                   <h3 class="educators__name">Елена</h3>
                   <div class="educators__role">Педагог - психолог</div>
-                  <a href="" class="educators__more">
-                    Подробнее о педагоге
-
-                    <svg class="educators__icon" width="27" height="16" viewBox="0 0 27 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M25.7827 8.5035C26.1732 8.11297 26.1732 7.47981 25.7827 7.08928L19.4187 0.725321C19.0282 0.334796 18.3951 0.334796 18.0045 0.72532C17.614 1.11584 17.614 1.74901 18.0045 2.13953L23.6614 7.79639L18.0045 13.4532C17.614 13.8438 17.614 14.4769 18.0045 14.8675C18.3951 15.258 19.0282 15.258 19.4187 14.8675L25.7827 8.5035ZM0.37793 8.79639L25.0756 8.79639L25.0756 6.79639L0.37793 6.79639L0.37793 8.79639Z" fill="#5EC2EB" />
-                    </svg>
-                  </a>
                 </div>
                 <!-- /.educators__content -->
               </div>
@@ -1142,13 +1133,6 @@
                 <div class="educators__content">
                   <h3 class="educators__name">Ульяна</h3>
                   <div class="educators__role">Педагог</div>
-                  <a href="" class="educators__more">
-                    Подробнее о педагоге
-
-                    <svg class="educators__icon" width="27" height="16" viewBox="0 0 27 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M25.7827 8.5035C26.1732 8.11297 26.1732 7.47981 25.7827 7.08928L19.4187 0.725321C19.0282 0.334796 18.3951 0.334796 18.0045 0.72532C17.614 1.11584 17.614 1.74901 18.0045 2.13953L23.6614 7.79639L18.0045 13.4532C17.614 13.8438 17.614 14.4769 18.0045 14.8675C18.3951 15.258 19.0282 15.258 19.4187 14.8675L25.7827 8.5035ZM0.37793 8.79639L25.0756 8.79639L25.0756 6.79639L0.37793 6.79639L0.37793 8.79639Z" fill="#5EC2EB" />
-                    </svg>
-                  </a>
                 </div>
                 <!-- /.educators__content -->
               </div>
@@ -1169,13 +1153,6 @@
                 <div class="educators__content">
                   <h3 class="educators__name">Тамара</h3>
                   <div class="educators__role">Логопед</div>
-                  <a href="" class="educators__more">
-                    Подробнее о педагоге
-
-                    <svg class="educators__icon" width="27" height="16" viewBox="0 0 27 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M25.7827 8.5035C26.1732 8.11297 26.1732 7.47981 25.7827 7.08928L19.4187 0.725321C19.0282 0.334796 18.3951 0.334796 18.0045 0.72532C17.614 1.11584 17.614 1.74901 18.0045 2.13953L23.6614 7.79639L18.0045 13.4532C17.614 13.8438 17.614 14.4769 18.0045 14.8675C18.3951 15.258 19.0282 15.258 19.4187 14.8675L25.7827 8.5035ZM0.37793 8.79639L25.0756 8.79639L25.0756 6.79639L0.37793 6.79639L0.37793 8.79639Z" fill="#5EC2EB" />
-                    </svg>
-                  </a>
                 </div>
                 <!-- /.educators__content -->
               </div>
@@ -1194,6 +1171,11 @@
         <!-- /.swiper-controls -->
       </div>
       <!-- /.educators -->
+
+      <div class="educators__action">
+          <button class="educators__button button button-outline" onclick="window.location.href=''">Вся команда</button>
+        </div>
+        <!-- /.about__action -->
     </div>
     <!-- /.container -->
   </section>

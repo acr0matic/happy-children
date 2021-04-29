@@ -102,7 +102,7 @@
 
         <div class="header__action">
           <a href="tel:+74954102300 " class="header__phone">8 (495) 410 23 00 </a>
-          <div class="header__excursion" data-micromodal-trigger="modal-callback">Записаться <br> на экскурсию</div>
+          <div class="header__excursion" data-micromodal-trigger="modal-callback" data-modal-target="excursion">Записаться <br> на экскурсию</div>
         </div>
         <!-- /.header__action -->
 

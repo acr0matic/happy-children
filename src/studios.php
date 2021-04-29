@@ -10,8 +10,10 @@
           <h2 class="section__title">В Happy Children</h2>
 
           <div class="studios__action">
-            <button class="studios__button button button-primary me-3">Записаться на экскурсию</button>
-            <button class="studios__button button button-outline">Позвонить</button>
+            <button class="studios__button button button-primary me-3" data-micromodal-trigger="modal-callback" data-modal-target="excursion">
+              Записаться на экскурсию
+            </button>
+            <button class="studios__button button button-outline" onclick="window.open('tel:+79653171030', '_self');">Позвонить</button>
           </div>
           <!-- /.studios__action -->
         </div>
@@ -93,7 +95,9 @@
                 </p>
 
                 <div class="text-block__action">
-                  <button class="text-block__button button button-outline" data-micromodal-trigger="modal-callback">Записаться на пробное занятие</button>
+                  <button class="text-block__button button button-outline" data-micromodal-trigger="modal-callback" data-modal-target="trial" data-modal-additional="english" data-modal-title="Запишитесь <br> на пробное занятие">
+                    Записаться на пробное занятие
+                  </button>
                 </div>
                 <!-- /.about__action -->
               </div>
@@ -138,7 +142,9 @@
                 </p>
 
                 <div class="text-block__action">
-                  <button class="text-block__button button button-outline" data-micromodal-trigger="modal-callback">Записаться на пробное занятие</button>
+                  <button class="text-block__button button button-outline" data-micromodal-trigger="modal-callback" data-modal-target="trial" data-modal-additional="english" data-modal-title="Запишитесь <br> на пробное занятие">
+                    Записаться на пробное занятие
+                  </button>
                 </div>
                 <!-- /.about__action -->
               </div>
@@ -182,7 +188,9 @@
                 </p>
 
                 <div class="text-block__action">
-                  <button class="text-block__button button button-outline" data-micromodal-trigger="modal-callback">Записаться на пробное занятие</button>
+                  <button class="text-block__button button button-outline" data-micromodal-trigger="modal-callback" data-modal-target="trial" data-modal-additional="speech" data-modal-title="Запишитесь <br> на пробное занятие">
+                    Записаться на пробное занятие
+                  </button>
                 </div>
                 <!-- /.about__action -->
               </div>
@@ -226,7 +234,9 @@
                 </p>
 
                 <div class="text-block__action">
-                  <button class="text-block__button button button-outline" data-micromodal-trigger="modal-callback">Записаться на пробное занятие</button>
+                  <button class="text-block__button button button-outline" data-micromodal-trigger="modal-callback" data-modal-target="trial" data-modal-additional="music" data-modal-title="Запишитесь <br> на пробное занятие">
+                    Записаться на пробное занятие
+                  </button>
                 </div>
                 <!-- /.about__action -->
               </div>
