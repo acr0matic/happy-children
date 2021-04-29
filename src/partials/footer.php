@@ -132,7 +132,7 @@
   <script src="scripts/libraries/choices.min.js"></script>
 
   <script src="scripts/libraries/datepicker-full.min.js"></script>
-  <script src="scripts/libraries/locales/ru.js"></script>
+  <script src="scripts/libraries/datepicker-ru.js"></script>
 
   <script src="scripts/libraries/formController.js"></script>
 

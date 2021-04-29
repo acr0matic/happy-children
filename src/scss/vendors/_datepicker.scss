@@ -1,3 +1,5 @@
+/* purgecss start ignore */
+
 .datepicker {
     display: none;
 }
@@ -304,3 +306,5 @@
 .datepicker-input.in-edit:focus, .datepicker-input.in-edit:active {
     box-shadow: 0 0 0.25em 0.25em rgba(35, 102, 209, 0.2);
 }
+
+/* purgecss end ignore */
