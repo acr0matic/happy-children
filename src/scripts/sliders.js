@@ -28,6 +28,32 @@ const programSlider = new Swiper('.program-slider', {
   },
 });
 
+const holidaySlider = new Swiper('.holiday-slider', {
+  speed: 400,
+  simulateTouch: false,
+  spaceBetween: 30,
+  autoHeight: true,
+
+  on: {
+    init() {
+      const wrapper = document.querySelector('.holiday-slider');
+      const slides = wrapper.querySelectorAll('.swiper-slide');
+      slides.forEach((slide) => {
+        programList.push(slide.getAttribute('data-title'));
+      });
+    },
+  },
+
+  pagination: {
+    el: '.holiday-slider .swiper-pagination',
+    clickable: true,
+
+    renderBullet(index, className) {
+      return `<span class="${className}">${programList[index]}</span>`;
+    },
+  },
+});
+
 const educatorSlider = new Swiper('.educator__slider', {
   slidesPerView: 1,
   spaceBetween: 30,

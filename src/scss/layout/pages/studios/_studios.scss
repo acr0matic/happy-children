@@ -20,7 +20,8 @@
     clip-path: url(#hero-wave);
 
     @include breakpoint($breakpoint-tablet--large) {
-      height: 305px;
+      clip-path: url(#hero-wave--mobile);
+      height: 605px;
     }
   }
 }
@@ -29,18 +30,33 @@
   position: relative;
 
   padding-top: 125px;
-  padding-bottom: 200px;
+  padding-bottom: 120px;
 
   color: $text-white;
 
+  @include breakpoint($breakpoint-tablet) {
+    padding-top: 48px;
+    padding-bottom: 0;
+  }
+
   &__title {
     margin-bottom: 20px;
+
+    @include breakpoint($breakpoint-tablet) {
+      font-size: 32px;
+      text-align: center;
+    }
+  }
+
+  &__action {
+    @include breakpoint($breakpoint-tablet) {
+      display: none;
+    }
   }
 
   &__action .button-outline {
     color: $text-white;
   }
-
 
   &__picture {
     position: absolute;
@@ -49,6 +65,16 @@
 
     display: block;
     width: 650px;
+
+    @include breakpoint($breakpoint-tablet) {
+      position: relative;
+      top: -60px;
+
+      width: 100%;
+      max-width: 360px;
+
+      margin: 0 auto;
+    }
   }
 
   &__image {

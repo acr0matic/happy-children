@@ -30,6 +30,14 @@
             </clipPath>
           </svg>
         </div>
+
+        <div class="shape">
+          <svg>
+            <clipPath id="hero-wave--mobile" clipPathUnits="objectBoundingBox">
+              <path d="M 0 1 L 0 0 L 1 0 L 1 0.783 C 0.688 0.767 0.391 0.867 0 0.856" />
+            </clipPath>
+          </svg>
+        </div>
       </div>
       <!-- /.team -->
     </div>
@@ -42,9 +50,10 @@
         <div class="service__item text-block__item">
           <div class="row align-items-center">
             <div class="col-12 col-lg-5 col-xl-6 mb-4 mb-lg-0">
-              <div class="text-block__picture mx-auto mx-lg-0">
-                <img class="text-block__image" src="img/page/main/about/photo.jpg" alt="">
-              </div>
+              <picture class="text-block__picture mx-auto mx-lg-0">
+                <source srcset="img/page/studios/service/1.webp" type="image/webp">
+                <img class="text-block__image" src="img/page/studios/service/1.jpg" alt="">
+              </picture>
               <!-- /.about__picture -->
             </div>
             <!-- /.col-6 -->
@@ -99,9 +108,10 @@
         <div class="service__item text-block__item">
           <div class="row align-items-center">
             <div class="col-12 col-lg-5 col-xl-6 mb-4 mb-lg-0">
-              <div class="text-block__picture mx-auto mx-lg-0">
-                <img class="text-block__image" src="img/page/main/about/photo.jpg" alt="">
-              </div>
+              <picture class="text-block__picture mx-auto mx-lg-0">
+                <source srcset="img/page/studios/service/2.webp" type="image/webp">
+                <img class="text-block__image" src="img/page/studios/service/2.jpg" alt="">
+              </picture>
               <!-- /.about__picture -->
             </div>
             <!-- /.col-6 -->
@@ -143,9 +153,10 @@
         <div class="service__item text-block__item">
           <div class="row align-items-center">
             <div class="col-12 col-lg-5 col-xl-6 mb-4 mb-lg-0">
-              <div class="text-block__picture mx-auto mx-lg-0">
-                <img class="text-block__image" src="img/page/main/about/photo.jpg" alt="">
-              </div>
+              <picture class="text-block__picture mx-auto mx-lg-0">
+                <source srcset="img/page/studios/service/3.webp" type="image/webp">
+                <img class="text-block__image" src="img/page/studios/service/3.jpg" alt="">
+              </picture>
               <!-- /.about__picture -->
             </div>
             <!-- /.col-6 -->
@@ -186,9 +197,10 @@
         <div class="service__item text-block__item">
           <div class="row align-items-center">
             <div class="col-12 col-lg-5 col-xl-6 mb-4 mb-lg-0">
-              <div class="text-block__picture mx-auto mx-lg-0">
-                <img class="text-block__image" src="img/page/main/about/photo.jpg" alt="">
-              </div>
+              <picture class="text-block__picture mx-auto mx-lg-0">
+                <source srcset="img/page/studios/service/4.webp" type="image/webp">
+                <img class="text-block__image" src="img/page/studios/service/4.jpg" alt="">
+              </picture>
               <!-- /.about__picture -->
             </div>
             <!-- /.col-6 -->
@@ -227,6 +239,246 @@
         <!-- /.text-block__item -->
       </div>
       <!-- /.service -->
+    </div>
+    <!-- /.container -->
+  </section>
+
+  <section id="holiday" class="section">
+    <div class="container">
+      <h2 class="section__title text-center">Организация праздников</h2>
+
+      <div class="holiday">
+        <div class="swiper-container holiday-slider">
+          <div class="swiper-pagination"></div>
+
+          <div class="swiper-wrapper">
+            <div class="swiper-slide" data-title="Пакет «Как дома, только лучше»">
+              <div class="holiday__item text-block__item">
+                <div class="row align-items-center">
+                  <div class="col-12 col-lg-5 col-xl-6 mb-4 mb-lg-0">
+                    <picture class="text-block__picture mx-auto mx-lg-0">
+                      <source srcset="img/page/studios/holiday/1.webp" type="image/webp">
+                      <img class="text-block__image" src="img/page/studios/holiday/1.jpg" alt="">
+                    </picture>
+                    <!-- /.about__picture -->
+                  </div>
+                  <!-- /.col-6 -->
+
+                  <div class="col-12 col-lg-7 col-xl-6">
+                    <div class="text-block__content">
+                      <h2 class="text-block__title">
+                        Пакет
+                        <br>
+                        «Как дома, только лучше»
+                      </h2>
+
+                      <div class="text-block__text">
+                        <p class="text-block__text section__text">
+                          Новое пространство, уютная атмосфера, оформленная фотозона.
+                        </p>
+
+                        <p class="text-block__text section__text">
+                          Администратор на период проведения праздника.
+                        </p>
+                      </div>
+                      <!-- /.about__text -->
+
+                      <p class="text-block__text section__text">
+                        <strong>Продолжительность аренды</strong> – 3 часа.
+                      </p>
+
+                      <p class="text-block__text section__text">
+                        Возможное время аренды – <br>
+                        выходные и праздничные дни в 11:00 и в 16:00.
+                      </p>
+
+                      <p class="text-block__text section__text">
+                        <strong>Стоимость</strong> – 10 000 руб.
+                      </p>
+                    </div>
+                    <!-- /.about__content -->
+                  </div>
+                  <!-- /.col-6 -->
+                </div>
+                <!-- /.row -->
+              </div>
+              <!-- /.text-block__item -->
+            </div>
+            <!-- /.swiper-slide -->
+
+
+            <div class="swiper-slide" data-title="Пакет «Праздничный»">
+              <div class="holiday__item text-block__item">
+                <div class="row align-items-center">
+                  <div class="col-12 col-lg-5 col-xl-6 mb-4 mb-lg-0">
+                    <picture class="text-block__picture mx-auto mx-lg-0">
+                      <source srcset="img/page/studios/holiday/1.webp" type="image/webp">
+                      <img class="text-block__image" src="img/page/studios/holiday/1.jpg" alt="">
+                    </picture>
+                    <!-- /.about__picture -->
+                  </div>
+                  <!-- /.col-6 -->
+
+                  <div class="col-12 col-lg-7 col-xl-6">
+                    <div class="text-block__content">
+                      <h2 class="text-block__title">
+                        Пакет «Праздничный»
+                      </h2>
+
+                      <div class="text-block__text">
+                        <p class="text-block__text section__text">
+                          Аренда красивого просторного зала с оформленной фотозоной – <strong>3 часа</strong>
+                        </p>
+
+                        <p class="text-block__text section__text">
+                          + Муссовый торт с декором на выбор (1 кг) от Территории десертов
+                          <br>
+                          + Аниматор (1ч)
+                          <br>
+                          + Украшение шарами
+                          <br>
+                          + Закуски, напитки, праздничные украшения
+                        </p>
+                      </div>
+                      <!-- /.about__text -->
+
+                      <p class="text-block__text section__text">
+                        <strong>Возможное время аренды</strong> – выходные и праздничные дни в 11:00 и в 16:00.
+                      </p>
+
+                      <p class="text-block__text section__text">
+                        <strong>Стоимость</strong> - 21 000 руб.
+                      </p>
+
+                      <div class="text-block__action">
+                        <button class="text-block__button button button-outline" data-micromodal-trigger="modal-callback">Записаться на пробное занятие</button>
+                      </div>
+                      <!-- /.about__action -->
+                    </div>
+                    <!-- /.about__content -->
+                  </div>
+                  <!-- /.col-6 -->
+                </div>
+                <!-- /.row -->
+              </div>
+              <!-- /.text-block__item -->
+            </div>
+            <!-- /.swiper-slide -->
+
+
+            <div class="swiper-slide" data-title="Пакет «Безудержное веселье»">
+              <div class="holiday__item text-block__item">
+                <div class="row align-items-center">
+                  <div class="col-12 col-lg-5 col-xl-6 mb-4 mb-lg-0">
+                    <picture class="text-block__picture mx-auto mx-lg-0">
+                      <source srcset="img/page/studios/holiday/1.webp" type="image/webp">
+                      <img class="text-block__image" src="img/page/studios/holiday/1.jpg" alt="">
+                    </picture>
+                    <!-- /.about__picture -->
+                  </div>
+                  <!-- /.col-6 -->
+
+                  <div class="col-12 col-lg-7 col-xl-6">
+                    <div class="text-block__content">
+                      <h2 class="text-block__title">
+                        Английский язык
+                      </h2>
+
+                      <div class="text-block__text">
+                        <p class="text-block__text section__text">
+                          Авторские занятия по изучению английского языка от <strong>Елены Левиной</strong>, педагог-психолог, преподаватель английского языка.
+                        </p>
+
+                        <p class="text-block__text section__text">
+                          Все занятия проходят в игровой форме. Каждое занятие делится на 4 блока, после каждого блока - музыкальная разминка.
+                        </p>
+                      </div>
+                      <!-- /.about__text -->
+
+                      <p class="text-block__text section__text">
+                        <strong>Время проведения</strong> <br>
+                        Суббота в 10:00 <br>
+                        Рекомендуемый возраст – от 4,5 лет
+                      </p>
+
+                      <p class="text-block__text section__text">
+                        <strong>Стоимость абонемента</strong> из 4 занятий – 4.000 руб. <br> Группа 5-6 человек
+                      </p>
+
+                      <div class="text-block__action">
+                        <button class="text-block__button button button-outline" data-micromodal-trigger="modal-callback">Записаться на пробное занятие</button>
+                      </div>
+                      <!-- /.about__action -->
+                    </div>
+                    <!-- /.about__content -->
+                  </div>
+                  <!-- /.col-6 -->
+                </div>
+                <!-- /.row -->
+              </div>
+              <!-- /.text-block__item -->
+            </div>
+            <!-- /.swiper-slide -->
+
+            <div class="swiper-slide" data-title="Пакет «Максимальный»">
+              <div class="holiday__item text-block__item">
+                <div class="row align-items-center">
+                  <div class="col-12 col-lg-5 col-xl-6 mb-4 mb-lg-0">
+                    <picture class="text-block__picture mx-auto mx-lg-0">
+                      <source srcset="img/page/studios/holiday/1.webp" type="image/webp">
+                      <img class="text-block__image" src="img/page/studios/holiday/1.jpg" alt="">
+                    </picture>
+                    <!-- /.about__picture -->
+                  </div>
+                  <!-- /.col-6 -->
+
+                  <div class="col-12 col-lg-7 col-xl-6">
+                    <div class="text-block__content">
+                      <h2 class="text-block__title">
+                        Английский язык
+                      </h2>
+
+                      <div class="text-block__text">
+                        <p class="text-block__text section__text">
+                          Авторские занятия по изучению английского языка от <strong>Елены Левиной</strong>, педагог-психолог, преподаватель английского языка.
+                        </p>
+
+                        <p class="text-block__text section__text">
+                          Все занятия проходят в игровой форме. Каждое занятие делится на 4 блока, после каждого блока - музыкальная разминка.
+                        </p>
+                      </div>
+                      <!-- /.about__text -->
+
+                      <p class="text-block__text section__text">
+                        <strong>Время проведения</strong> <br>
+                        Суббота в 10:00 <br>
+                        Рекомендуемый возраст – от 4,5 лет
+                      </p>
+
+                      <p class="text-block__text section__text">
+                        <strong>Стоимость абонемента</strong> из 4 занятий – 4.000 руб. <br> Группа 5-6 человек
+                      </p>
+
+                      <div class="text-block__action">
+                        <button class="text-block__button button button-outline" data-micromodal-trigger="modal-callback">Записаться на пробное занятие</button>
+                      </div>
+                      <!-- /.about__action -->
+                    </div>
+                    <!-- /.about__content -->
+                  </div>
+                  <!-- /.col-6 -->
+                </div>
+                <!-- /.row -->
+              </div>
+              <!-- /.text-block__item -->
+            </div>
+            <!-- /.swiper-slide -->
+          </div>
+          <!-- /.swiper-wrapper -->
+        </div>
+        <!-- /.swiper-container program-slider -->
+      </div>
+      <!-- /.program -->
     </div>
     <!-- /.container -->
   </section>

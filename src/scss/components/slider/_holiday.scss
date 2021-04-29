@@ -1,0 +1,57 @@
+.holiday-slider {
+  padding-bottom: 5px;
+
+  .swiper-pagination {
+    position: initial;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    margin-bottom: 60px;
+
+    &-bullet {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      width: 23%;
+      height: 50px;
+
+      border-radius: $border-radius;
+      border: 2px solid #5ec2eb;
+      outline: none;
+
+      color: $text-black;
+      background-color: transparent;
+
+      font-weight: $weight-Medium;
+      font-size: $font-size-5 - 1;
+
+      opacity: 1;
+      transition: 0.15s ease;
+
+      @include breakpoint($breakpoint-tablet) {
+        width: 47%;
+        padding: 0 5px;
+
+        font-size: $font-size-6;
+
+        @include first(2) {
+          margin-bottom: 20px;
+        }
+      }
+
+      &:hover {
+        @media (hover: hover) {
+          color: $text-white;
+          background-color: #5ec2eb;
+        }
+      }
+
+      &-active {
+        color: $text-white;
+        background-color: #5ec2eb;
+      }
+    }
+  }
+}

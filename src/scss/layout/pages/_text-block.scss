@@ -19,6 +19,7 @@
 
     font-size: 32px;
     font-weight: $weight-Regular;
+    font-family: Comfortaa, sans-serif;
 
     line-height: 40px;
 
@@ -50,6 +51,7 @@
 
   &__picture {
     position: relative;
+    display: block;
     background-color: $palette-yellow;
     border-radius: 50%;
 
