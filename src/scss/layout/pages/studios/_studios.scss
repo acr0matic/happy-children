@@ -66,6 +66,15 @@
     display: block;
     width: 650px;
 
+    @include breakpoint($breakpoint-laptop--large) {
+      width: 450px;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      top: 50px;
+      width: 350px;
+    }
+
     @include breakpoint($breakpoint-tablet) {
       position: relative;
       top: -60px;
