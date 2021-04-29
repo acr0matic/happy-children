@@ -1,0 +1,33 @@
+.choices {
+  &__inner {
+    min-height: initial;
+
+    border: none;
+    border-bottom: 1px solid $input__border;
+
+    padding-left: 0;
+
+    background-color: transparent;
+    font-size: $font-size-5;
+
+    @include breakpoint($breakpoint-tablet) {
+      font-size: $font-size-6 !important;
+    }
+  }
+
+  &__list {
+    &--single {
+      padding-left: 0;
+      padding-bottom: 0;
+    }
+  }
+
+  &__item {
+    font-size: $font-size-5 !important;
+    color: $text-black;
+
+    @include breakpoint($breakpoint-tablet) {
+      font-size: $font-size-6 !important;
+    }
+  }
+}

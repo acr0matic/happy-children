@@ -230,6 +230,89 @@
     </div>
     <!-- /.container -->
   </section>
+
+  <section id="callback" class="section">
+    <div class="container">
+      <div class="callback">
+        <div class="row align-items-center">
+          <div class="col-12 col-lg-7 col-xl-6">
+            <div class="callback__wrapper">
+              <h2 class="callback__title section__title mb-2">
+                Запишите своего малыша
+                <br>
+                на пробное занятие
+              </h2>
+              <p class="callback__text section__text">
+                Оставьте свои контактные данные, и мы
+                <br>
+                свяжемся с вами в ближайшее время
+              </p>
+
+              <form action="" class="callback__form form form-callback">
+                <div class="input mb-3">
+                  <select class="input__select" data-trigger name="user_select">
+                    <option value="">Выберите секцию</option>
+                    <option value="english">Английский язык</option>
+                    <option value="сhess">Шахматы</option>
+                    <option value="speech">Логопед</option>
+                    <option value="music">Музыкальная студия</option>
+                  </select>
+                </div>
+                <!-- /.input -->
+
+                <div class="input mb-3">
+                  <input data-required type="text" class="input__field" name="user_name" placeholder="Ваше ФИО">
+                  <img data-tippy-content="Поле пустое или содержит ошибки" class="input__warning" src="img/icons/warning.svg" alt="">
+                </div>
+                <!-- /.input -->
+
+                <div class="input mb-3">
+                  <input type="text" class="input__field" name="user_child" placeholder="Имя ребенка">
+                  <img data-tippy-content="Поле содержит ошибки" class="input__warning" src="img/icons/warning.svg" alt="">
+                </div>
+                <!-- /.input -->
+
+                <div class="input mb-3">
+                  <input type="text" class="input__field" name="user_date" placeholder="Дата рождения ребенка">
+                  <img data-tippy-content="Поле содержит ошибки" class="input__warning" src="img/icons/warning.svg" alt="">
+                </div>
+                <!-- /.input -->
+
+                <div class="input mb-5">
+                  <input data-required type="tel" class="input__field" name="user_phone" placeholder="+7 (111) 111 11 11">
+                  <img data-tippy-content="Поле пустое или содержит ошибки" class="input__warning" src="img/icons/warning.svg" alt="">
+                </div>
+                <!-- /.input -->
+
+                <div class="form__action">
+                  <button data-sending="Отправляем..." type="submit" class="form__button button button-outline d-flex mx-auto">Записаться</button>
+                  <img class="form__loader preloader--mini" src="img/loader.svg" alt="">
+                </div>
+                <!-- /.form__action -->
+              </form>
+            </div>
+            <!-- /.callback__wrapper -->
+          </div>
+          <!-- /.col-6 -->
+
+          <div class="col-12 col-lg-5 col-xl-6">
+            <div class="callback__picture">
+              <picture>
+                <source srcset="img/page/main/callback/photo.webp" type="image/webp">
+                <img class="callback__image" src="img/page/main/callback/photo.jpg" alt="">
+              </picture>
+            </div>
+            <!-- /.program__picture -->
+          </div>
+          <!-- /.col-6 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.callback -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /#callback.section -->
 </main>
 
 <?php include_once('partials/footer.php') ?>

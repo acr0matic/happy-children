@@ -8,6 +8,10 @@ dateFields.forEach(field => {
   });
 });
 
+const choices = new Choices('[data-trigger]', {
+  searchEnabled: false,
+  itemSelectText: 'Выбрать',
+});
 
 const callbackModal = document.getElementById('modal-callback');
 
