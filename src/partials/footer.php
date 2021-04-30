@@ -140,6 +140,7 @@
   <script src="scripts/script.js"></script>
   <script src="scripts/sliders.js"></script>
   <script src="scripts/modal.js"></script>
+  <script src="scripts/mobile.js"></script>
   <script src="scripts/misc.js"></script>
   <!-- endbuild -->
   </body>
