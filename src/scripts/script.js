@@ -34,8 +34,11 @@ tippy('img[data-tippy-content]', {
 const forms = document.querySelectorAll('form');
 forms.forEach(form => new Form(form));
 
-// eslint-disable-next-line no-restricted-globals
 SmoothScroll();
+
+AOS.init({
+  once: true,
+});
 
 /* Логика для мобильного меню */
 const headerMobile = document.querySelector('.header .header__mobile');

@@ -24,7 +24,7 @@
         <!-- /.text-block__hero -->
 
         <div class="text-block__list">
-          <div class="text-block__item">
+          <div data-aos="fade-up" data-aos-offset="200" class="text-block__item">
             <div class="row align-items-center">
               <div class="col-12 col-lg-5 col-xl-6 mb-4 mb-lg-0">
                 <div class="text-block__picture mx-auto mx-lg-0">
@@ -55,7 +55,7 @@
           </div>
           <!-- /.text-block__item -->
 
-          <div class="text-block__item">
+          <div data-aos="fade-up" data-aos-offset="200" class="text-block__item">
             <div class="row align-items-center">
               <div class="col-12 col-lg-5 col-xl-6 mb-4 mb-lg-0">
                 <div class="text-block__picture mx-auto mx-lg-0">
@@ -86,7 +86,7 @@
           </div>
           <!-- /.text-block__item -->
 
-          <div class="text-block__item">
+          <div data-aos="fade-up" data-aos-offset="200" class="text-block__item">
             <div class="row align-items-center">
               <div class="col-12 col-lg-5 col-xl-6 mb-4 mb-lg-0">
                 <div class="text-block__picture mx-auto mx-lg-0">
@@ -117,7 +117,7 @@
           </div>
           <!-- /.text-block__item -->
 
-          <div class="text-block__item">
+          <div data-aos="fade-up" data-aos-offset="200" class="text-block__item">
             <div class="row align-items-center">
               <div class="col-12 col-lg-5 col-xl-6 mb-4 mb-lg-0">
                 <div class="text-block__picture mx-auto mx-lg-0">

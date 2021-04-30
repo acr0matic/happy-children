@@ -61,7 +61,7 @@
     <div class="container">
       <div class="about">
         <div class="row">
-          <div class="col-12 col-lg-5 col-xl-6 mb-4 mb-lg-0">
+          <div data-aos="fade-right" data-aos-offset="200" class="col-12 col-lg-5 col-xl-6 mb-4 mb-lg-0">
             <div class="text-block__picture mx-auto mx-lg-0">
               <picture>
                 <source srcset="img/page/main/about/photo.webp" type="image/webp">
@@ -72,7 +72,7 @@
           </div>
           <!-- /.col-6 -->
 
-          <div class="col-12 col-lg-7 col-xl-6">
+          <div data-aos="fade-left" data-aos-offset="200" class="col-12 col-lg-7 col-xl-6">
             <div class="text-block__content">
               <h2 class="text-block__title section__title">
                 Здесь начинается
@@ -120,7 +120,7 @@
       <div class="advantages">
         <div class="swiper-container swiper-container--mobile slider-advantages">
           <div class="row swiper-wrapper swiper-wrapper--mobile">
-            <div class="swiper-slide col-12 col-md-6 col-lg-4">
+            <div data-aos="fade-up" data-aos-offset="200" class="swiper-slide col-12 col-md-6 col-lg-4">
               <div class="advantages__item" data-tippy-content="
                 - Маленькие группы (до 12 человек)
                 <br>
@@ -144,7 +144,7 @@
             </div>
             <!-- /.col-4 -->
 
-            <div class="swiper-slide col-12 col-md-6 col-lg-4">
+            <div data-aos="fade-up" data-aos-offset="200" class="swiper-slide col-12 col-md-6 col-lg-4">
               <div class="advantages__item" data-tippy-content="
                   Готовим из продуктов ВкусВилл.
                   <br> <br>
@@ -160,7 +160,7 @@
             </div>
             <!-- /.col-4 -->
 
-            <div class="swiper-slide col-12 col-md-6 col-lg-4">
+            <div data-aos="fade-up" data-aos-offset="200" class="swiper-slide col-12 col-md-6 col-lg-4">
               <div class="advantages__item" data-tippy-content="
                   На наших занятиях дети играют, поют, рисуют, танцуют и создают проекты на английском языке.">
 
@@ -174,7 +174,7 @@
             </div>
             <!-- /.col-4 -->
 
-            <div class="swiper-slide col-12 col-md-6 col-lg-4">
+            <div data-aos="fade-up" data-aos-offset="200"  class="swiper-slide col-12 col-md-6 col-lg-4">
               <div class="advantages__item" data-tippy-content="
                 С помощью синтеза государственного образовательного стандарта дошкольного образования «Школа-2100» и методик развития эмоционального интеллекта мы формируем в наших детях уверенность в себе, способность думать и планировать, умение распознавать, понимать свои эмоции и управлять ими.">
                 <div class="advantages__number">4</div>
@@ -187,7 +187,7 @@
             </div>
             <!-- /.col-4 -->
 
-            <div class="swiper-slide col-12 col-md-6 col-lg-4">
+            <div data-aos="fade-up" data-aos-offset="200"  class="swiper-slide col-12 col-md-6 col-lg-4">
               <div class="advantages__item" data-tippy-content="
                 Балет, футбол, детский фитнес, танцы, музыкальные занятия, игры по Бахотскому, кулинарные мастер-классы, художественные мастерские, Лего-конструирование, подготовка к школе и многое-многое другое.
                 <br> <br>
@@ -202,7 +202,7 @@
             </div>
             <!-- /.col-4 -->
 
-            <div class="swiper-slide col-12 col-md-6 col-lg-4">
+            <div data-aos="fade-up" data-aos-offset="200"  class="swiper-slide col-12 col-md-6 col-lg-4">
               <div class="advantages__item" data-tippy-content="
                 Большое внимание мы уделяем профессиональным и личным качествам педагогов. Наши специалисты обеспечат психологический комфорт и защищенность для каждого малыша.">
                 <div class="advantages__number">6</div>
@@ -245,7 +245,7 @@
       <div class="gallery">
         <div class="swiper-container swiper-container--mobile slider-gallery">
           <div class="row swiper-wrapper swiper-wrapper--mobile">
-            <div class="swiper-slide col-7 mb-3">
+            <div data-aos="zoom-in" data-aos-offset="200" class="swiper-slide col-7 mb-3">
               <div class="gallery__picture">
                 <a href="img/page/main/gallery/1.jpg" data-fslightbox>
                   <picture>
@@ -258,7 +258,7 @@
             </div>
             <!-- /.col-7 -->
 
-            <div class="swiper-slide col-5 mb-3">
+            <div data-aos="zoom-in" data-aos-offset="200" class="swiper-slide col-5 mb-3">
               <div class="gallery__picture">
                 <a href="img/page/main/gallery/2.jpg" data-fslightbox>
                   <picture>
@@ -271,7 +271,7 @@
             </div>
             <!-- /.col-5 -->
 
-            <div class="swiper-slide col-4 mb-3">
+            <div data-aos="zoom-in" data-aos-offset="200" class="swiper-slide col-4 mb-3">
               <div class="gallery__picture">
                 <a href="img/page/main/gallery/3.jpg" data-fslightbox>
                   <picture>
@@ -284,7 +284,7 @@
             </div>
             <!-- /.col-4 -->
 
-            <div class="swiper-slide col-4 mb-3">
+            <div data-aos="zoom-in" data-aos-offset="200" class="swiper-slide col-4 mb-3">
               <div class="gallery__picture">
                 <a href="img/page/main/gallery/4.jpg" data-fslightbox>
                   <picture>
@@ -297,7 +297,7 @@
             </div>
             <!-- /.col-4 -->
 
-            <div class="swiper-slide col-4">
+            <div data-aos="zoom-in" data-aos-offset="200" class="swiper-slide col-4">
               <div class="gallery__picture">
                 <a href="img/page/main/gallery/5.jpg" data-fslightbox>
                   <picture>
@@ -310,7 +310,7 @@
             </div>
             <!-- /.col-4 -->
 
-            <div class="swiper-slide col-6 mb-5">
+            <div data-aos="zoom-in" data-aos-offset="200" class="swiper-slide col-6 mb-5">
               <div class="gallery__picture">
                 <a href="img/page/main/gallery/6.jpg" data-fslightbox>
                   <picture>
@@ -323,7 +323,7 @@
             </div>
             <!-- /.col-6 -->
 
-            <div class="swiper-slide col-6">
+            <div data-aos="zoom-in" data-aos-offset="200" class="swiper-slide col-6">
               <div class="gallery__picture">
                 <a href="img/page/main/gallery/7.jpg" data-fslightbox>
                   <picture>
@@ -361,7 +361,7 @@
         <div class="concept__cards concept-cards">
           <div class="swiper-container swiper-container--mobile slider-concept">
             <div class="swiper-wrapper row">
-              <div class="swiper-slide col-12 col-md-6 col-xl-4 mb-0 mb-md-4">
+              <div data-aos="fade-up" data-aos-offset="200" class="swiper-slide col-12 col-md-6 col-xl-4 mb-0 mb-md-4">
                 <div class="concept-cards__item">
                   <img class="concept-cards__icon" src="img/page/main/concept/1.svg" alt="">
 
@@ -375,7 +375,7 @@
               </div>
               <!-- /.col-4 -->
 
-              <div class="swiper-slide col-12 col-md-6 col-xl-4 mb-0 mb-md-4">
+              <div data-aos="fade-up" data-aos-offset="200" class="swiper-slide col-12 col-md-6 col-xl-4 mb-0 mb-md-4">
                 <div class="concept-cards__item">
                   <img class="concept-cards__icon" src="img/page/main/concept/2.svg" alt="">
 
@@ -389,7 +389,7 @@
               </div>
               <!-- /.col-4 -->
 
-              <div class="swiper-slide col-12 col-md-6 col-xl-4 mb-0 mb-md-4">
+              <div data-aos="fade-up" data-aos-offset="200" class="swiper-slide col-12 col-md-6 col-xl-4 mb-0 mb-md-4">
                 <div class="concept-cards__item">
                   <img class="concept-cards__icon" src="img/page/main/concept/3.svg" alt="">
 
@@ -403,7 +403,7 @@
               </div>
               <!-- /.col-4 -->
 
-              <div class="swiper-slide col-12 col-md-6 col-xl-4 mb-0 mb-md-4 mb-4 mb-xl-0">
+              <div data-aos="fade-up" data-aos-offset="200" class="swiper-slide col-12 col-md-6 col-xl-4 mb-0 mb-md-4 mb-4 mb-xl-0">
                 <div class="concept-cards__item">
                   <img class="concept-cards__icon" src="img/page/main/concept/4.svg" alt="">
 
@@ -418,7 +418,7 @@
               </div>
               <!-- /.col-4 -->
 
-              <div class="swiper-slide col-12 col-md-6 col-xl-4 mb-0 mb-md-4 mb-4 mb-xl-0">
+              <div data-aos="fade-up" data-aos-offset="200" class="swiper-slide col-12 col-md-6 col-xl-4 mb-0 mb-md-4 mb-4 mb-xl-0">
                 <div class="concept-cards__item">
                   <img class="concept-cards__icon" src="img/page/main/concept/5.svg" alt="">
 
@@ -434,7 +434,7 @@
               </div>
               <!-- /.col-4 -->
 
-              <div class="swiper-slide col-12 col-md-6 col-xl-4 mb-0 mb-md-4 mb-4 mb-xl-0">
+              <div data-aos="fade-up" data-aos-offset="200" class="swiper-slide col-12 col-md-6 col-xl-4 mb-0 mb-md-4 mb-4 mb-xl-0">
                 <div class="concept-cards__item">
                   <img class="concept-cards__icon" src="img/page/main/concept/6.svg" alt="">
 
@@ -464,7 +464,7 @@
 
         <div class="concept__information concept-information text-block">
           <div class="row align-items-center">
-            <div class="col-12 col-lg-5 col-xl-6">
+            <div data-aos="fade-right" data-aos-offset="200" class="col-12 col-lg-5 col-xl-6">
               <div class="text-block__picture mx-auto mx-lg-0 mb-4 mb-lg-0">
                 <picture>
                   <source srcset="img/page/main/concept/photos/1.webp" type="image/webp">
@@ -475,7 +475,7 @@
             </div>
             <!-- /.col-6 -->
 
-            <div class="col-12 col-lg-7 col-xl-6">
+            <div data-aos="fade-left" data-aos-offset="200" class="col-12 col-lg-7 col-xl-6">
               <div class="text-block__content">
                 <h2 class="text-block__title section__title">
                   Инновации в нашем
@@ -512,7 +512,7 @@
           <!-- /.row -->
 
           <div class="row align-items-center">
-            <div class="col-12 col-lg-5 col-xl-6">
+            <div data-aos="fade-right" data-aos-offset="200" class="col-12 col-lg-5 col-xl-6">
               <div class="text-block__picture mx-auto mx-lg-0 mb-4 mb-lg-0">
                 <picture>
                   <source srcset="img/page/main/concept/photos/2.webp" type="image/webp">
@@ -523,7 +523,7 @@
             </div>
             <!-- /.col-6 -->
 
-            <div class="col-12 col-lg-7 col-xl-6">
+            <div data-aos="fade-left" data-aos-offset="200" class="col-12 col-lg-7 col-xl-6">
               <div class="text-block__content">
                 <h2 class="text-block__title section__title">
                   Индивидуальный подход
@@ -558,7 +558,7 @@
           <!-- /.row -->
 
           <div class="row align-items-center">
-            <div class="col-12 col-lg-5 col-xl-6">
+            <div data-aos="fade-right" data-aos-offset="200" class="col-12 col-lg-5 col-xl-6">
               <div class="text-block__picture mx-auto mx-lg-0 mb-4 mb-lg-0">
                 <picture>
                   <source srcset="img/page/main/concept/photos/3.webp" type="image/webp">
@@ -569,7 +569,7 @@
             </div>
             <!-- /.col-6 -->
 
-            <div class="col-12 col-lg-7 col-xl-6">
+            <div data-aos="fade-left" data-aos-offset="200" class="col-12 col-lg-7 col-xl-6">
               <div class="text-block__content">
                 <h2 class="text-block__title section__title">
                   Атмосфера
@@ -622,7 +622,7 @@
 
       <div class="what-get">
         <div class="row">
-          <div class="col-12 col-sm-6 col-lg-3 offset-0 offset-lg-1">
+          <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="0" class="col-12 col-sm-6 col-lg-3 offset-0 offset-lg-1">
             <div class="what-get__item">
               <div class="what-get__ballon">
                 <img src="img/page/main/what-get/ballon.svg" alt="" class="what-get__icon">
@@ -642,7 +642,7 @@
           </div>
           <!-- /.col-3 -->
 
-          <div class="flex-row-reverse col-12 col-sm-6 col-lg-4">
+          <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="100" class="flex-row-reverse col-12 col-sm-6 col-lg-4">
             <div class="what-get__item flex-row-reverse flex-sm-row">
               <div class="what-get__ballon">
                 <img src="img/page/main/what-get/ballon.svg" alt="" class="what-get__icon">
@@ -662,7 +662,7 @@
           </div>
           <!-- /.col-3 -->
 
-          <div class="col-12 col-sm-6 col-lg-4">
+          <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="200" class="col-12 col-sm-6 col-lg-4">
             <div class="what-get__item">
               <div class="what-get__ballon">
                 <img src="img/page/main/what-get/ballon.svg" alt="" class="what-get__icon">
@@ -680,7 +680,7 @@
           </div>
           <!-- /.col-3 -->
 
-          <div class="col-12 col-sm-6 col-lg-3 offset-0 offset-lg-1">
+          <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="0" class="col-12 col-sm-6 col-lg-3 offset-0 offset-lg-1">
             <div class="what-get__item flex-row-reverse flex-sm-row">
               <div class="what-get__ballon">
                 <img src="img/page/main/what-get/ballon.svg" alt="" class="what-get__icon">
@@ -696,7 +696,7 @@
           </div>
           <!-- /.col-3 -->
 
-          <div class="col-12 col-sm-6 col-lg-4 offset-0 offset-lg-1">
+          <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="100" class="col-12 col-sm-6 col-lg-4 offset-0 offset-lg-1">
             <div class="what-get__item">
               <div class="what-get__ballon">
                 <img src="img/page/main/what-get/ballon.svg" alt="" class="what-get__icon">
@@ -714,7 +714,7 @@
           </div>
           <!-- /.col-3 -->
 
-          <div class="flex-row-reverse col-12 col-sm-6 col-lg-3">
+          <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="200" class="flex-row-reverse col-12 col-sm-6 col-lg-3">
             <div class="what-get__item flex-row-reverse flex-sm-row">
               <div class="what-get__ballon">
                 <img src="img/page/main/what-get/ballon.svg" alt="" class="what-get__icon">
@@ -732,7 +732,7 @@
           </div>
           <!-- /.col-3 -->
 
-          <div class="col-12 col-sm-6 col-lg-4 offset-0 offset-lg-2">
+          <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="0" class="col-12 col-sm-6 col-lg-4 offset-0 offset-lg-2">
             <div class="what-get__item">
               <div class="what-get__ballon">
                 <img src="img/page/main/what-get/ballon.svg" alt="" class="what-get__icon">
@@ -750,7 +750,7 @@
           </div>
           <!-- /.col-4 -->
 
-          <div class="col-12 col-sm-6 col-lg-4">
+          <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="100" class="col-12 col-sm-6 col-lg-4">
             <div class="what-get__item flex-row-reverse flex-sm-row">
               <div class="what-get__ballon">
                 <img src="img/page/main/what-get/ballon.svg" alt="" class="what-get__icon">
@@ -992,7 +992,7 @@
 
       <div class="condition">
         <div class="row align-items-start">
-          <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+          <div data-aos="fade-up" data-aos-offset="200" class="col-12 col-lg-6 mb-4 mb-lg-0">
             <div class="condition__card condition-card">
               <div class="condition-card__header condition-card__header--yellow">
                 <h3 class="condition-card__title">Утро / вечер</h3>
@@ -1046,7 +1046,7 @@
           </div>
           <!-- /.col-6 -->
 
-          <div class="col-12 col-lg-6">
+          <div data-aos="fade-up" data-aos-offset="200" class="col-12 col-lg-6">
             <div class="condition__card condition-card">
               <div class="condition-card__header condition-card__header--darkblue">
                 <h3 class="condition-card__title">Весь день</h3>
@@ -1184,7 +1184,7 @@
     <div class="container">
       <div class="contact">
         <div class="row">
-          <div class="col-12 col-lg-5 mb-4 mb-lg-0">
+          <div data-aos="fade-right" data-aos-offset="200" class="col-12 col-lg-5 mb-4 mb-lg-0">
             <div class="contact__info">
               <h2 class="contact__title section__title">Контакты</h2>
               <div class="contact__wrapper">
@@ -1218,7 +1218,7 @@
           </div>
           <!-- /.col-5 -->
 
-          <div class="col-12 col-lg-7">
+          <div data-aos="fade-left" data-aos-offset="200" class="col-12 col-lg-7">
             <div class="contact__map" id="map">
               <!--- ДИНАМИЧЕСКАЯ КАРТА --->
             </div>
@@ -1252,7 +1252,7 @@
     <div class="container">
       <div class="callback">
         <div class="row align-items-center">
-          <div class="col-12 col-lg-7 col-xl-6">
+          <div data-aos="fade-right" data-aos-offset="200" class="col-12 col-lg-7 col-xl-6">
             <div class="callback__wrapper">
               <h2 class="callback__title section__title mb-2">
                 Запишитесь
@@ -1303,7 +1303,7 @@
           </div>
           <!-- /.col-6 -->
 
-          <div class="col-12 col-lg-5 col-xl-6">
+          <div data-aos="fade-left" data-aos-offset="200" class="col-12 col-lg-5 col-xl-6">
             <div class="callback__picture">
               <picture>
                 <source srcset="img/page/main/callback/photo.webp" type="image/webp">

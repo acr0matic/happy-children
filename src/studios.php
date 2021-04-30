@@ -49,7 +49,7 @@
   <section id="service" class="section">
     <div class="container">
       <div class="service">
-        <div class="service__item text-block__item">
+        <div data-aos="fade-up" data-aos-offset="200" class="service__item text-block__item">
           <div class="row align-items-center">
             <div class="col-12 col-lg-5 col-xl-6 mb-4 mb-lg-0">
               <picture class="text-block__picture mx-auto mx-lg-0">
@@ -109,7 +109,7 @@
         </div>
         <!-- /.text-block__item -->
 
-        <div class="service__item text-block__item">
+        <div data-aos="fade-up" data-aos-offset="200" class="service__item text-block__item">
           <div class="row align-items-center">
             <div class="col-12 col-lg-5 col-xl-6 mb-4 mb-lg-0">
               <picture class="text-block__picture mx-auto mx-lg-0">
@@ -156,7 +156,7 @@
         </div>
         <!-- /.text-block__item -->
 
-        <div class="service__item text-block__item">
+        <div data-aos="fade-up" data-aos-offset="200" class="service__item text-block__item">
           <div class="row align-items-center">
             <div class="col-12 col-lg-5 col-xl-6 mb-4 mb-lg-0">
               <picture class="text-block__picture mx-auto mx-lg-0">
@@ -202,7 +202,7 @@
         </div>
         <!-- /.text-block__item -->
 
-        <div class="service__item text-block__item">
+        <div data-aos="fade-up" data-aos-offset="200" class="service__item text-block__item">
           <div class="row align-items-center">
             <div class="col-12 col-lg-5 col-xl-6 mb-4 mb-lg-0">
               <picture class="text-block__picture mx-auto mx-lg-0">
@@ -497,7 +497,7 @@
     <div class="container">
       <div class="callback">
         <div class="row align-items-center">
-          <div class="col-12 col-lg-7 col-xl-6">
+          <div data-aos="fade-right" data-aos-offset="200" class="col-12 col-lg-7 col-xl-6">
             <div class="callback__wrapper">
               <h2 class="callback__title section__title mb-2">
                 Запишите своего малыша
@@ -557,7 +557,7 @@
           </div>
           <!-- /.col-6 -->
 
-          <div class="col-12 col-lg-5 col-xl-6">
+          <div data-aos="fade-left" data-aos-offset="200" class="col-12 col-lg-5 col-xl-6">
             <div class="callback__picture">
               <picture>
                 <source srcset="img/page/main/callback/photo.webp" type="image/webp">

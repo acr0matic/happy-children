@@ -130,6 +130,7 @@
   <script src="scripts/libraries/fslightbox.js"></script>
   <script src="scripts/libraries/imask.js"></script>
   <script src="scripts/libraries/choices.min.js"></script>
+  <script src="scripts/libraries/aos.js"></script>
 
   <script src="scripts/libraries/datepicker-full.min.js"></script>
   <script src="scripts/libraries/datepicker-ru.js"></script>
