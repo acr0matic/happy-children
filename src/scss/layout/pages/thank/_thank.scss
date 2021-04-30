@@ -1,0 +1,108 @@
+#thank {
+  @include breakpoint($breakpoint-tablet) {
+    margin-bottom: -80px;
+  }
+}
+
+.thank {
+  &__picture {
+    display: block;
+    width: 90%;
+    margin-top: 95px;
+
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+    @include breakpoint($breakpoint-tablet) {
+      width: 100%;
+      margin-top: 120px;
+      margin-bottom: 30px;
+    }
+  }
+
+  &__image {
+    width: 100%;
+  }
+
+  &__content {
+    position: relative;
+  }
+
+  &__wrapper {
+    position: relative;
+    z-index: 1;
+
+    padding-top: 190px;
+
+    color: $text-white;
+
+    text-align: center;
+
+    @include breakpoint($breakpoint-tablet) {
+      padding-top: 45px;
+    }
+  }
+
+  &__title {
+    margin-bottom: 25px;
+
+    font-weight: $weight-Regular;
+    font-size: $font-size-3;
+    font-family: Comfortaa, sans-serif;
+
+    @include breakpoint($breakpoint-mobile--large) {
+      padding: 0 20px;
+    }
+  }
+
+  &__subtitle {
+    margin-bottom: 42px;
+
+    font-weight: $weight-Regular;
+    font-size: $font-size-6;
+    font-family: Comfortaa, sans-serif;
+
+    @include breakpoint($breakpoint-tablet--large) {
+      padding: 0 35px;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      padding: 0 60px;
+    }
+  }
+
+  &__background {
+    position: absolute;
+    top: -50px;
+    right: 0;
+
+    width: 100%;
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      top: -160px;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      top: 0;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      top: -650px;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      top: -330px;
+      right: 50%;
+      width: 360px;
+
+      transform: translateX(50%);
+    }
+
+    @include breakpoint($breakpoint-mobile--medium) {
+      top: -270px;
+      width: 330px;
+    }
+  }
+}
