@@ -76,11 +76,11 @@
         <div class="header__nav">
           <nav class="nav nav--header">
             <ul class="nav__list">
-              <li class="nav__item"><a href="#about" class="nav__link">О нас</a></li>
-              <li class="nav__item"><a href="#concept" class="nav__link">Концепция</a></li>
-              <li class="nav__item"><a href="#program" class="nav__link">Расписание</a></li>
-              <li class="nav__item"><a href="#condition" class="nav__link">Условия и цены</a></li>
-              <li class="nav__item"><a href="#educators" class="nav__link">Наша команда</a></li>
+              <li class="nav__item"><a href="/#about" class="nav__link">О нас</a></li>
+              <li class="nav__item"><a href="/#concept" class="nav__link">Концепция</a></li>
+              <li class="nav__item"><a href="/#program" class="nav__link">Расписание</a></li>
+              <li class="nav__item"><a href="/#condition" class="nav__link">Условия и цены</a></li>
+              <li class="nav__item"><a href="/#educators" class="nav__link">Наша команда</a></li>
               <li class="nav__item dropdown">
                 <a href="#" class="nav__link">Дополнительные услуги</a>
 

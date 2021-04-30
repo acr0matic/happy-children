@@ -80,7 +80,7 @@
         </div>
 
         <div class="modal__content">
-          <form action="" class="callback__from form form-callback">
+          <form action="php/test.php" data-redirect="thank.php" class="callback__from form form-callback">
             <div class="input mb-3">
               <input data-required type="text" class="input__field" name="user_name" placeholder="Ваше ФИО">
               <img data-tippy-content="Поле пустое или содержит ошибки" class="input__warning" src="img/icons/warning.svg" alt="">

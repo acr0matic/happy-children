@@ -34,7 +34,10 @@ tippy('img[data-tippy-content]', {
 const forms = document.querySelectorAll('form');
 forms.forEach(form => new Form(form));
 
-SmoothScroll();
+new SmoothScroll('a[href*="/#"]', {
+  speed: 500,
+  speedAsDuration: true,
+});
 
 AOS.init({
   once: true,

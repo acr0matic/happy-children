@@ -1,5 +1,6 @@
 #studios {
   position: relative;
+  overflow: visible;
 
   &::after {
     content: "";

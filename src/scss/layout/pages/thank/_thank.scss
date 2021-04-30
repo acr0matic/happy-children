@@ -1,4 +1,6 @@
 #thank {
+  overflow: visible;
+
   @include breakpoint($breakpoint-tablet) {
     margin-bottom: -80px;
   }
@@ -61,8 +63,7 @@
     margin-bottom: 42px;
 
     font-weight: $weight-Regular;
-    font-size: $font-size-6;
-    font-family: Comfortaa, sans-serif;
+    font-size: $font-size-5;
 
     @include breakpoint($breakpoint-tablet--large) {
       padding: 0 35px;

@@ -510,7 +510,7 @@
                 свяжемся с вами в ближайшее время
               </p>
 
-              <form action="" class="callback__form form form-callback">
+              <form action="php/test.php" data-redirect="thank.php" class="callback__form form form-callback">
                 <div class="input mb-3">
                   <select class="input__select" data-trigger name="user_select">
                     <option value="">Выберите секцию</option>
