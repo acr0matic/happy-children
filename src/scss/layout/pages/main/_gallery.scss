@@ -56,6 +56,11 @@
   }
 
   .button {
-    margin-top: 70px;
+    @media (hover: hover) {
+      &:hover {
+        background-color: #ffffff;
+        color: $text-black;
+      }
+    }
   }
 }

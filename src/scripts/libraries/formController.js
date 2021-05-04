@@ -50,7 +50,7 @@ class Form {
       if (this.CheckRequired() & this.InputValidate()) {
         this.submit.innerHTML = this.submit.getAttribute('data-sending');
         this.submit.setAttribute('disabled', 'disabled');
-        this.submit.parentNode.classList.add('form__action--sending');
+        this.form.classList.add('form--sending');
 
         this.Send();
       }

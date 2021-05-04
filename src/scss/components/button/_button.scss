@@ -15,11 +15,15 @@
     font-size: $font-size-6;
   }
 
-  &:hover {
+  &:hover:enabled {
     @media (hover: hover) {
       color: $button__text;
       border-color: $button__border--hover;
       background-color: $button__bg--hover;
     }
+  }
+  
+  &:disabled {
+	opacity: 0.7;
   }
 }

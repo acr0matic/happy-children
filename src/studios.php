@@ -13,7 +13,7 @@
             <button class="studios__button button button-primary me-3" data-micromodal-trigger="modal-callback" data-modal-target="excursion">
               Записаться на экскурсию
             </button>
-            <button class="studios__button button button-outline" onclick="window.open('tel:+79653171030', '_self');">Позвонить</button>
+            <button class="studios__button button button-outline button-outline--white" onclick="window.open('tel:+79653171030', '_self');">Позвонить</button>
           </div>
           <!-- /.studios__action -->
         </div>

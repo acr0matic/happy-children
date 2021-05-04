@@ -159,7 +159,7 @@
   &__picture {
     position: absolute;
     right: 0;
-    bottom: -90px;
+    bottom: -120px;
 
     @include breakpoint($breakpoint-laptop--medium) {
       bottom: 0;
