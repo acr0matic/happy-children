@@ -56,6 +56,10 @@
   }
 
   .button {
+    @include breakpoint($breakpoint-tablet) {
+      margin-top: 70px;
+    }
+
     @media (hover: hover) {
       &:hover {
         background-color: #ffffff;

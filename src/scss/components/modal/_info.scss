@@ -1,0 +1,37 @@
+.modal-info {
+  .modal__container {
+    max-width: 630px;
+
+    padding: 40px 45px;
+
+    @include breakpoint($breakpoint-tablet) {
+      padding: 15px 20px;
+    }
+  }
+
+  .modal__title {
+    margin-top: 40px;
+
+    @include breakpoint($breakpoint-tablet) {
+      margin-top: 50px;
+    }
+  }
+
+  .modal__content {
+    max-height: 455px;
+    overflow-y: auto;
+
+    margin-top: 25px;
+    padding-right: 25px;
+
+    font-size: 18px;
+    line-height: 160%;
+
+    @include breakpoint($breakpoint-tablet) {
+      max-height: 355px;
+      padding-right: 10px;
+
+      font-size: $font-size-6;
+    }
+  }
+}

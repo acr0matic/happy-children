@@ -305,6 +305,38 @@
                       <p class="text-block__text section__text">
                         <strong>Стоимость</strong> – 10 000 руб.
                       </p>
+
+                      <div class="text-block__action">
+                        <button class="text-block__button button button-primary me-sm-4 me-auto mb-3 mb-sm-0" data-micromodal-trigger="modal-info" data-title="Пакет Праздничный" data-description="
+                        Новое пространство, уютная атмосфера, оформленная фотозона. <br><br>
+
+Администратор на период проведения праздника. <br><br>
+
+<b>Продолжительность аренды</b> – 3 часа. <br><br>
+
+Возможное время аренды –
+выходные и праздничные дни в 11:00 и в 16:00.
+
+<b>Продолжительность аренды</b> – 3 часа. <br><br>
+
+Возможное время аренды –
+выходные и праздничные дни в 11:00 и в 16:00.
+
+
+<b>Продолжительность аренды</b> – 3 часа. <br><br>
+
+Возможное время аренды –
+выходные и праздничные дни в 11:00 и в 16:00.
+
+<b>Продолжительность аренды</b> – 3 часа. <br><br>
+
+Возможное время аренды –
+выходные и праздничные дни в 11:00 и в 16:00.
+
+Стоимость – 10 000 руб.">Подробнее</button>
+                        <button class="text-block__button button button-outline" data-micromodal-trigger="modal-callback" data-modal-target="order" data-modal-additional="tariff-1" data-modal-title="Пакет<br>«Как дома, только лучше»">Заказать</button>
+                      </div>
+                      <!-- /.text-block__action -->
                     </div>
                     <!-- /.about__content -->
                   </div>
@@ -361,9 +393,10 @@
                       </p>
 
                       <div class="text-block__action">
-                        <button class="text-block__button button button-outline" data-micromodal-trigger="modal-callback">Записаться на пробное занятие</button>
+                        <button class="text-block__button button button-primary me-4" data-micromodal-trigger="modal-info">Подробнее</button>
+                        <button class="text-block__button button button-outline" data-micromodal-trigger="modal-callback" data-modal-target="order" data-modal-additional="tariff-2" data-modal-title="Пакет<br>«Как дома, только лучше»">Заказать</button>
                       </div>
-                      <!-- /.about__action -->
+                      <!-- /.text-block__action -->
                     </div>
                     <!-- /.about__content -->
                   </div>
@@ -374,7 +407,6 @@
               <!-- /.text-block__item -->
             </div>
             <!-- /.swiper-slide -->
-
 
             <div class="swiper-slide" data-title="Пакет «Безудержное веселье»">
               <div class="holiday__item text-block__item">
@@ -416,9 +448,10 @@
                       </p>
 
                       <div class="text-block__action">
-                        <button class="text-block__button button button-outline" data-micromodal-trigger="modal-callback">Записаться на пробное занятие</button>
+                        <button class="text-block__button button button-primary me-4" data-micromodal-trigger="modal-info">Подробнее</button>
+                        <button class="text-block__button button button-outline" data-micromodal-trigger="modal-callback" data-modal-target="order" data-modal-additional="tariff-3" data-modal-title="Пакет<br>«Как дома, только лучше»">Заказать</button>
                       </div>
-                      <!-- /.about__action -->
+                      <!-- /.text-block__action -->
                     </div>
                     <!-- /.about__content -->
                   </div>
@@ -470,9 +503,10 @@
                       </p>
 
                       <div class="text-block__action">
-                        <button class="text-block__button button button-outline" data-micromodal-trigger="modal-callback">Записаться на пробное занятие</button>
+                        <button class="text-block__button button button-primary me-4" data-micromodal-trigger="modal-info">Подробнее</button>
+                        <button class="text-block__button button button-outline" data-micromodal-trigger="modal-callback" data-modal-target="order" data-modal-additional="tariff-4" data-modal-title="Пакет<br>«Как дома, только лучше»">Заказать</button>
                       </div>
-                      <!-- /.about__action -->
+                      <!-- /.text-block__action -->
                     </div>
                     <!-- /.about__content -->
                   </div>
@@ -574,7 +608,33 @@
     </div>
     <!-- /.container -->
   </section>
-  <!-- /#callback.section -->
 </main>
+
+<div class="modal modal-info micromodal-slide" id="modal-info">
+  <div class="modal__overlay" data-micromodal-close>
+    <div class="modal__container">
+      <div class="modal__header">
+        <h2 class="modal__title mb-3">
+
+        </h2>
+
+        <button class="modal__close" data-micromodal-close>
+          <svg width="100%" height="100%" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M17.5 0C7.83594 0 0 7.83594 0 17.5C0 27.1641 7.83594 35 17.5 35C27.1641 35 35 27.1641 35 17.5C35 7.83594 27.1641 0 17.5 0ZM17.5 32.0312C9.47656 32.0312 2.96875 25.5234 2.96875 17.5C2.96875 9.47656 9.47656 2.96875 17.5 2.96875C25.5234 2.96875 32.0312 9.47656 32.0312 17.5C32.0312 25.5234 25.5234 32.0312 17.5 32.0312Z" fill="#5EC2EB" />
+            <path d="M24.2891 11.25C24.2891 11.0781 24.1484 10.9375 23.9766 10.9375L21.3984 10.9492L17.5156 15.5781L13.6367 10.9531L11.0547 10.9414C10.8828 10.9414 10.7422 11.0781 10.7422 11.2539C10.7422 11.3281 10.7695 11.3984 10.8164 11.457L15.8984 17.5117L10.8164 23.5625C10.7692 23.6198 10.743 23.6914 10.7422 23.7656C10.7422 23.9375 10.8828 24.0781 11.0547 24.0781L13.6367 24.0664L17.5156 19.4375L21.3945 24.0625L23.9727 24.0742C24.1445 24.0742 24.2852 23.9375 24.2852 23.7617C24.2852 23.6875 24.2578 23.6172 24.2109 23.5586L19.1367 17.5078L24.2188 11.4531C24.2656 11.3984 24.2891 11.3242 24.2891 11.25Z" fill="#5EC2EB" />
+          </svg>
+        </button>
+      </div>
+
+      <div class="modal__content">
+
+      </div>
+      <!-- /.modal__content -->
+    </div>
+    <!-- /.modal__container -->
+  </div>
+  <!-- /.modal__overlay -->
+</div>
+<!-- /.modal -->
 
 <?php include_once('partials/footer.php') ?>

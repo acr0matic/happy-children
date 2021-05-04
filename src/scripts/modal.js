@@ -4,14 +4,14 @@ MicroModal.init({
 });
 
 const modalCallback = document.getElementById('modal-callback');
-const modalTarget = modalCallback.querySelector('form');
-const modalTitle = modalCallback.querySelector('.modal__title');
+const modalCallbackTarget = modalCallback.querySelector('form');
+const modalCallbackTitle = modalCallback.querySelector('.modal__title');
 
 const targetModalButton = document.querySelectorAll('[data-modal-target]');
 
 const modalDefault = {
   'callback': {
-    'title': modalTitle.innerHTML,
+    'title': modalCallbackTitle.innerHTML,
   }
 }
 
@@ -20,12 +20,29 @@ targetModalButton.forEach(button => {
   const addtional = button.getAttribute('data-modal-additional');
 
   button.addEventListener('click', () => {
-    modalTarget.setAttribute('data-target', target);
+    modalCallbackTarget.setAttribute('data-target', target);
 
-    if (target === 'sign-up' || target === 'trial') modalTitle.innerHTML = button.getAttribute('data-modal-title');
-    else modalTitle.innerHTML = modalDefault.callback.title;
+    if (target === 'sign-up' || target === 'trial' || target === 'order') modalCallbackTitle.innerHTML = button.getAttribute('data-modal-title');
+    else modalCallbackTitle.innerHTML = modalDefault.callback.title;
 
-    if (addtional) modalTarget.setAttribute('data-additional', addtional);
-    else modalTarget.removeAttribute('data-additional');
+    if (addtional) modalCallbackTarget.setAttribute('data-additional', addtional);
+    else modalCallbackTarget.removeAttribute('data-additional');
   });
 });
+
+const modalInfo = document.getElementById('modal-info');
+if (modalInfo) {
+  const modalInfoTitle = modalInfo.querySelector('.modal__title');
+  const modalInfoContent = modalInfo.querySelector('.modal__content');
+  const modalInfoButton = document.querySelectorAll('[data-micromodal-trigger=modal-info]');
+
+  modalInfoButton.forEach(button => {
+    button.addEventListener('click', () => {
+      const title = button.getAttribute('data-title');
+      const description = button.getAttribute('data-description');
+
+      modalInfoTitle.innerHTML = title;
+      modalInfoContent.innerHTML = description;
+    });
+  });
+}
