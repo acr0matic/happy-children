@@ -120,6 +120,23 @@
   </div>
   <!-- /.modal -->
 
+  <div class="social">
+    <a class="social__link social__link--hide" href="viber://contact?number=%274954102300">
+      <img src="img/social/viber.svg" alt="" class="social__icon">
+    </a>
+
+    <a class="social__link social__link--hide" href="https://api.whatsapp.com/send?phone=74954102300%E2%80%99" target="_blank">
+      <img src="img/social/whatsapp.svg" alt="" class="social__icon">
+    </a>
+
+    <a class="social__link social__link--hide" href="https://t.me/" target="_blank">
+      <img src="img/social/telegram.svg" alt="" class="social__icon">
+    </a>
+
+    <img id="social" src="img/social/social.svg" alt="" class="social__icon">
+  </div>
+  <!-- /.social -->
+
   <!-- Скрипты -->
   <!-- build:js -->
   <script src="scripts/libraries/popper.js"></script>

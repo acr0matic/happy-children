@@ -45,3 +45,19 @@ else {
     }
   });
 }
+
+const social = document.getElementById('social');
+const socialIcons = document.querySelectorAll('.social__link--hide')
+
+social.addEventListener('click', () => {
+  socialIcons.forEach(icon => {
+    icon.classList.toggle('social__link--hide');
+  });
+});
+
+['click', 'touchstart'].forEach(evt =>
+  window.addEventListener(evt, (e) => {
+    if (!social.contains(e.target))
+      socialIcons.forEach(icon => icon.classList.add('social__link--hide'));
+  })
+);

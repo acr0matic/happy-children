@@ -1,6 +1,11 @@
 .button-primary {
   background-color: $button__bg;
 
+  &--white {
+    background-color: #ffffff;
+    color: #5ec2eb;
+  }
+
   &--inverted {
     @media (hover: hover) {
       &:hover {

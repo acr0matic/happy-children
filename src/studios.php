@@ -10,7 +10,7 @@
           <h2 class="section__title">В Happy Children</h2>
 
           <div class="studios__action">
-            <button class="studios__button button button-primary me-3" data-micromodal-trigger="modal-callback" data-modal-target="excursion">
+            <button class="studios__button button button-primary button-primary--white me-3" data-micromodal-trigger="modal-callback" data-modal-target="excursion">
               Записаться на экскурсию
             </button>
             <button class="studios__button button button-outline button-outline--white" onclick="window.open('tel:+79653171030', '_self');">Позвонить</button>
