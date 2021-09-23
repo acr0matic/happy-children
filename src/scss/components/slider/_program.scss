@@ -8,6 +8,10 @@
 
     margin-bottom: 60px;
 
+    @include breakpoint($breakpoint-mobile--large) {
+      flex-wrap: wrap;
+    }
+
     &-bullet {
       display: flex;
       align-items: center;
@@ -31,7 +35,13 @@
       opacity: 1;
       transition: 0.15s ease;
 
+      @include first(2) {
+        margin-bottom: 15px !important;
+      }
+
       @include breakpoint($breakpoint-mobile--large) {
+        width: 45%;
+
         margin: 0 6px !important;
         padding: 0 5px;
 

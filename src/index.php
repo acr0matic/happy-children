@@ -174,7 +174,7 @@
             </div>
             <!-- /.col-4 -->
 
-            <div data-aos="fade-up" data-aos-offset="200"  class="swiper-slide col-12 col-md-6 col-lg-4">
+            <div data-aos="fade-up" data-aos-offset="200" class="swiper-slide col-12 col-md-6 col-lg-4">
               <div class="advantages__item" data-tippy-content="
                 С помощью синтеза государственного образовательного стандарта дошкольного образования «Школа-2100» и методик развития эмоционального интеллекта мы формируем в наших детях уверенность в себе, способность думать и планировать, умение распознавать, понимать свои эмоции и управлять ими.">
                 <div class="advantages__number">4</div>
@@ -187,7 +187,7 @@
             </div>
             <!-- /.col-4 -->
 
-            <div data-aos="fade-up" data-aos-offset="200"  class="swiper-slide col-12 col-md-6 col-lg-4">
+            <div data-aos="fade-up" data-aos-offset="200" class="swiper-slide col-12 col-md-6 col-lg-4">
               <div class="advantages__item" data-tippy-content="
                 Балет, футбол, детский фитнес, танцы, музыкальные занятия, игры по Бахотскому, кулинарные мастер-классы, художественные мастерские, Лего-конструирование, подготовка к школе и многое-многое другое.
                 <br> <br>
@@ -202,7 +202,7 @@
             </div>
             <!-- /.col-4 -->
 
-            <div data-aos="fade-up" data-aos-offset="200"  class="swiper-slide col-12 col-md-6 col-lg-4">
+            <div data-aos="fade-up" data-aos-offset="200" class="swiper-slide col-12 col-md-6 col-lg-4">
               <div class="advantages__item" data-tippy-content="
                 Большое внимание мы уделяем профессиональным и личным качествам педагогов. Наши специалисты обеспечат психологический комфорт и защищенность для каждого малыша.">
                 <div class="advantages__number">6</div>
@@ -861,7 +861,62 @@
               <!-- /.program__item -->
             </div>
 
-            <div class="swiper-slide" data-title="3,5 - 4,5 года">
+            <div class="swiper-slide" data-title="3 - 4 года">
+              <div class="program__item">
+                <div class="row align-items-center">
+                  <div class="col-12 col-lg-6">
+                    <div class="program__picture">
+                      <picture>
+                        <source srcset="img/page/main/program/1.webp" type="image/webp">
+                        <img class="program__image" src="img/page/main/program/1.jpg" alt="">
+                      </picture>
+                    </div>
+                    <!-- /.program__picture -->
+                  </div>
+                  <!-- /.col-6 -->
+
+                  <div class="col-12 col-lg-6">
+                    <div class="program__content">
+                      <div class="program__text">
+                        <div class="row">
+                          <div class="col-12 col-sm-6">
+                            <ul class="list list--small">
+                              <li class="list__item">- Умение обозначать эмоции</li>
+                              <li class="list__item">- Английский язык</li>
+                              <li class="list__item">- Развитие речи</li>
+                            </ul>
+                          </div>
+                          <!-- /.col-6 -->
+
+                          <div class="col-12 col-sm-6">
+                            <ul class="list list--small">
+                              <li class="list__item">- Окружающий мир</li>
+                              <li class="list__item">- Система Монтессори</li>
+                              <li class="list__item">- Творчество</li>
+                              <li class="list__item">- Кулинарные мастер-классы</li>
+                            </ul>
+                          </div>
+                          <!-- /.col-6 -->
+                        </div>
+                        <!-- /.row -->
+                      </div>
+                      <!-- /.program__text -->
+
+                      <div class="program__action">
+                        <button class="button button-outline">Расписание группы</button>
+                      </div>
+                      <!-- /.program__action -->
+                    </div>
+                    <!-- /.program__content -->
+                  </div>
+                  <!-- /.col-6 -->
+                </div>
+                <!-- /.row -->
+              </div>
+              <!-- /.program__item -->
+            </div>
+
+            <div class="swiper-slide" data-title="4 - 5 года">
               <div class="program__item">
                 <div class="row align-items-center">
                   <div class="col-12 col-lg-6">
@@ -1173,9 +1228,9 @@
       <!-- /.educators -->
 
       <div class="educators__action">
-          <button class="educators__button button button-outline" onclick="window.location.href=''">Вся команда</button>
-        </div>
-        <!-- /.about__action -->
+        <button class="educators__button button button-outline" onclick="window.location.href=''">Вся команда</button>
+      </div>
+      <!-- /.about__action -->
     </div>
     <!-- /.container -->
   </section>
