@@ -133,7 +133,7 @@
       <img src="img/social/telegram.svg" alt="" class="social__icon">
     </a>
 
-    <img id="social" src="img/social/social.svg" alt="" class="social__icon">
+    <img id="social" src="img/social/social.svg" alt="" class="social__icon social__icon--big">
   </div>
   <!-- /.social -->
 
