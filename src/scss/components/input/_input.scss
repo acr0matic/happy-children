@@ -14,12 +14,11 @@
 
   &__field {
     width: 100%;
+    padding: 5px 0;
 
     border: none;
     border-bottom: 1px solid $input__border;
     outline: none;
-
-    padding: 5px 0;
 
     transition: 0.15s ease;
 
@@ -30,6 +29,21 @@
     &::placeholder {
       color: $input__placeholder;
     }
+
+    &--box {
+      min-height: 100px;
+      padding: 8px;
+
+      border: 1px solid $input__border;
+      border-radius: 4px;
+
+      resize: none;
+    }
+  }
+
+  &__label {
+    display: block;
+    margin-bottom: 8px;
   }
 
   &__warning {

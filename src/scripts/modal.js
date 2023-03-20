@@ -46,3 +46,22 @@ if (modalInfo) {
     });
   });
 }
+
+
+const modalVacancy = document.getElementById('modal-vacancy');
+
+if (modalVacancy) {
+  const title = modalVacancy.querySelector('.modal__title');
+  const cards = document.querySelectorAll('.vacancy__item');
+
+  if (cards) {
+    cards.forEach(card => {
+      const button = card.querySelector('.button');
+      const vacancyName = card.querySelector('.vacancy__title').textContent;
+
+      button.addEventListener('click', () => {
+        title.textContent = vacancyName;
+      });
+    });
+  }
+}
