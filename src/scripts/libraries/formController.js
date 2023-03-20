@@ -35,8 +35,6 @@ class Form {
       prepare: (appended, masked) => ((appended === '8' && masked.value === '') ? '' : appended),
     });
 
-    console.log(this.file);
-
     if (this.file) {
       this.dropzone = new Dropzone(this.file, {
         url: this.action,

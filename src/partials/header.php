@@ -81,8 +81,9 @@
               <li class="nav__item"><a href="/#program" class="nav__link">Расписание</a></li>
               <li class="nav__item"><a href="/#condition" class="nav__link">Условия и цены</a></li>
               <li class="nav__item"><a href="/#educators" class="nav__link">Наша команда</a></li>
+              <li class="nav__item"><a href="vacancy.php" class="nav__link">Вакансии</a></li>
               <li class="nav__item dropdown">
-                <a href="#" class="nav__link">Дополнительные услуги</a>
+                <a href="#" class="nav__link">Доп. услуги</a>
 
                 <div class="dropdown__wrapper">
                   <ul class="nav__list nav__list--vertical">
@@ -132,6 +133,7 @@
           <li class="nav__item"><a href="#condition" class="nav__link">Условия и цены</a></li>
           <li class="nav__item"><a href="#contact" class="nav__link">Контакты</a></li>
           <li class="nav__item"><a href="#educators" class="nav__link nav__link--main">Наша команда</a></li>
+          <li class="nav__item"><a href="vacancy.php" class="nav__link nav__link--main">Вакансии</a></li>
           <li class="nav__item"><a href="#educators" class="nav__link nav__link--main">Дополнительные услуги</a>
           <li class="nav__item"><a href="#about" class="nav__link">Шахматы</a></li>
           <li class="nav__item"><a href="#about" class="nav__link">Логопед</a></li>

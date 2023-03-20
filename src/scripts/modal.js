@@ -53,6 +53,7 @@ const modalVacancy = document.getElementById('modal-vacancy');
 
 if (modalVacancy) {
   const title = modalVacancy.querySelector('.modal__title');
+  const form = modalVacancy.querySelector('form');
   const cards = document.querySelectorAll('.vacancy__item');
 
   if (cards) {
@@ -62,6 +63,7 @@ if (modalVacancy) {
 
       button.addEventListener('click', () => {
         title.textContent = vacancyName;
+        form.dataset.additional = vacancyName;
       });
     });
   }
