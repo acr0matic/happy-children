@@ -1,26 +1,30 @@
-const { task, series } = require('gulp');
+process.env.NODE_ENV = 'wordpress' // default или wordpress
 
+const { task, series } = require('gulp');
 const requireDir = require('require-dir');
+
 const paths = {
   src: './src/',
   dist: './dist/',
 
   html: {
-    src: [
-      './src/**/*.{html,php}',
-      '!./src/php/**/*.php',
-    ],
+    src: './src/*.{html,php}',
     dist: './dist/',
     watch: './src/**/*.{html,php}',
-    css: 'css/style.min.css',
-    js: 'js/script.min.js',
+  },
+
+  layout: {
+    src: './src/layout/*.html',
+    temp: './src/',
+    all: './src/layout/**/*.html',
+    watch: ['./src/layout/**/*.html', './src/**/*.svg'],
   },
 
   styles: {
-    src: './src/scss/**/*.{scss,sass}',
-    dist: './dist/css/',
-    watch: './src/scss/**/*.{scss,sass}',
+    src: ['./src/scss/**/*.{scss,sass}', '!./src/scss/core/**/*.{scss,sass}'],
+    core: './src/scss/core',
     temp: './src/css/',
+    dist: './dist/css/',
     out: 'style.css',
     minify: 'style.min.css',
   },
@@ -82,13 +86,16 @@ requireDir('./gulp_tasks/');
 
 task('build', series('clean', series(
   [
+    'include',
+    'bootstrap',
     'scss',
     'autoprefix',
     'minify_css',
+    'replace',
     'scripts',
-    'html',
     'images',
     'favicons',
     'move',
+    'layout',
   ],
 )));
