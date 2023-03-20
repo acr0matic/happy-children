@@ -134,6 +134,13 @@
           </div>
           <!-- /.input -->
 
+          <div class="input mb-5">
+            <div class="input__field input__field--drop dropzone">
+            </div>
+            <!-- /.input__field -->
+          </div>
+          <!-- /.input -->
+
           <div class="form__action">
             <button data-sending="Отправляем..." type="submit" class="form__button button button-outline d-flex mx-auto">Записаться</button>
             <img class="form__loader preloader--mini" src="img/loader.svg" alt="">

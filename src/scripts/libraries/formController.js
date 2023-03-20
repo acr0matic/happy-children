@@ -6,12 +6,14 @@ class Form {
 
     this.phone = form.querySelector('input[type=tel]');
     this.date = form.querySelector('input[name=user_date]');
+    this.file = form.querySelector('.dropzone');
     this.action = form.getAttribute('action');
     this.redirect = form.getAttribute('data-redirect');
 
     this.submit = form.querySelector('button[type=submit]');
     this.fields = form.querySelectorAll('.input__field');
     this.required = form.querySelectorAll('[data-required]');
+    this.dropzone = null;
 
     this.buttonDefault = this.submit.innerHTML;
 
@@ -33,6 +35,27 @@ class Form {
       prepare: (appended, masked) => ((appended === '8' && masked.value === '') ? '' : appended),
     });
 
+    console.log(this.file);
+
+    if (this.file) {
+      this.dropzone = new Dropzone(this.file, {
+        url: this.action,
+        method: 'put',
+        addRemoveLinks: true,
+
+        dictDefaultMessage: "Перетащите резюме сюда, либо <br> нажмите, чтобы добавить",
+        dictCancelUpload: 'Отменить',
+        dictRemoveFile: 'Удалить',
+        dictMaxFilesExceeded: 'Превышен лимит',
+
+        uploadMultiple: true,
+        paramName: 'resume',
+        maxFiles: 1,
+        maxFilesize: 8192,
+      });
+
+    }
+
     if (this.date) {
       IMask(this.date, {
         mask: Date,
@@ -43,7 +66,6 @@ class Form {
   }
 
   Listener() {
-    // Удалить стандартное поведение формы
     this.form.addEventListener('submit', (e) => {
       e.preventDefault();
 
@@ -126,6 +148,8 @@ class Form {
 
     data.append('target', target);
     if (additional) data.append('additional', additional);
+
+    if (this.dropzone) this.dropzone.files.forEach(file => data.append('resume[]', file));
 
     try {
       let response = await fetch(this.action, {

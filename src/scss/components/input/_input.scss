@@ -39,6 +39,11 @@
 
       resize: none;
     }
+
+    &--drop {
+      border: 1px dashed #cfd2dd;
+      border-radius: 4px;
+    }
   }
 
   &__label {

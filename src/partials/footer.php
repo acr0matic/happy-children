@@ -152,6 +152,8 @@
   <script src="scripts/libraries/datepicker-full.min.js"></script>
   <script src="scripts/libraries/datepicker-ru.js"></script>
 
+  <script src="scripts/libraries/dropzone.js"></script>
+
   <script src="scripts/libraries/formController.js"></script>
 
   <script src="scripts/script.js"></script>
