@@ -77,14 +77,14 @@
     right: 0;
 
     display: block;
-    width: 630px;
+    width: 500px;
 
     @include breakpoint($breakpoint-laptop--large) {
-      width: 580px;
+      width: 420px;
     }
 
     @include breakpoint($breakpoint-laptop--medium) {
-      width: 500px;
+      width: 380px;
     }
 
     @include breakpoint($breakpoint-tablet--large) {
