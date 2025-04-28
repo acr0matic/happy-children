@@ -1046,104 +1046,165 @@
       <h2 class="section__title text-center">Условия и цены</h2>
 
       <div class="condition">
-        <div class="row align-items-start">
-          <div data-aos="fade-up" data-aos-offset="200" class="col-12 col-lg-6 mb-4 mb-lg-0">
-            <div class="condition__card condition-card">
-              <div class="condition-card__header condition-card__header--yellow">
-                <h3 class="condition-card__title">Утро / вечер</h3>
-              </div>
-              <!-- /.condition-card__header -->
-
-              <div class="condition-card__content">
-                <div class="condition-card__wrapper">
-                  <h4 class="condition-card__subtitle">Утро 08:00 - 12:30</h4>
-                  <p class="condition-card__description">
-                    Включено в стоимость:
-                    <br>
-                    Завтрак, второй завтрак и все занятия по
-                    <br>
-                    расписанию до обеда.
-                    <br>
-                    Обед может быть дополнительным - <strong>250 руб.</strong>
-                  </p>
-                </div>
-                <!-- /.condition-card__wrapper -->
-
-                <div class="condition-card__wrapper">
-                  <h4 class="condition-card__subtitle">Вечер 15:30 - 20:00</h4>
-                  <p class="condition-card__description">
-                    Включено в стоимость:
-                    <br>
-                    полдник, ужин и все занятия
-                    <br>
-                    по расписанию после обеда
-                  </p>
-                </div>
-                <!-- /.condition-card__wrapper -->
-
-                <div class="condition-card__wrapper">
-                  <h4 class="condition-card__subtitle">Стоимость:</h4>
-                  <p class="condition-card__description">
-                  <ul class="list list--small">
-                    <li class="list__item">- 3 раза в неделю (пн, ср, пт) - <strong>18 000 руб.</strong></li>
-                    <li class="list__item">- 2 раза в неделю (вт, чт) - <strong>15 000 руб.</strong></li>
-                    <li class="list__item">- 5 раз в неделю - <strong>23 000 руб.</strong></li>
-                  </ul>
-                  </p>
-                </div>
-                <!-- /.condition-card__wrapper -->
-
-                <button data-micromodal-trigger="modal-callback" data-modal-target="sign-up" data-modal-additional="morning-evening" data-modal-title="Запись на <br> утро/вечер" class="condition-card__button button button-outline">Записаться</button>
-              </div>
-              <!-- /.condition-card__content -->
+        <div class="condition__grid">
+          <div class="condition__card condition-card">
+            <div class="condition-card__header condition-card__header--yellow">
+              <h3 class="condition-card__title">Утро</h3>
             </div>
-            <!-- /.condition__card condition-card -->
-          </div>
-          <!-- /.col-6 -->
+            <!-- /.condition-card__header -->
 
-          <div data-aos="fade-up" data-aos-offset="200" class="col-12 col-lg-6">
-            <div class="condition__card condition-card">
-              <div class="condition-card__header condition-card__header--darkblue">
-                <h3 class="condition-card__title">Весь день</h3>
+            <div class="condition-card__content">
+              <div class="condition-card__wrapper">
+                <h4 class="condition-card__subtitle">Утро 08:00 - 12:30</h4>
+                <p class="condition-card__description">
+                  Включено в стоимость:
+                  <br>
+                  Завтрак, второй завтрак и все занятия по
+                  <br>
+                  расписанию до обеда.
+                  <br>
+                  Обед может быть дополнительным - <strong>250 руб.</strong>
+                </p>
               </div>
-              <!-- /.condition-card__header -->
+              <!-- /.condition-card__wrapper -->
 
-              <div class="condition-card__content">
-                <div class="condition-card__wrapper">
-                  <h4 class="condition-card__subtitle">08:00 - 20:00</h4>
-                  <p class="condition-card__description">
-                    Включено в стоимость:
-                    <br>
-                    завтрак, второй завтрак, обед, полдник,
-                    <br>
-                    ужин и все занятия по расписанию.
-                  </p>
-                </div>
-                <!-- /.condition-card__wrapper -->
-
-                <div class="condition-card__wrapper">
-                  <h4 class="condition-card__subtitle">Стоимость:</h4>
-                  <p class="condition-card__description">
-                  <ul class="list list--small">
-                    <li class="list__item">- 3 раза в неделю (пн, ср, пт) - <strong>27 000 руб.</strong></li>
-                    <li class="list__item">- 2 раза в неделю (вт, чт) - <strong>22 000 руб.</strong></li>
-                    <li class="list__item">- 5 раз в неделю - <strong>37 000 руб.</strong></li>
-                  </ul>
-                  </p>
-                </div>
-                <!-- /.condition-card__wrapper -->
-
-                <button data-micromodal-trigger="modal-callback" data-modal-target="sign-up" data-modal-additional="all-day" data-modal-title="Запись на <br> весь день" class="condition-card__button button button-outline">Записаться</button>
+              <div class="condition-card__wrapper">
+                <h4 class="condition-card__subtitle">Стоимость:</h4>
+                <p class="condition-card__description">
+                </p>
+                <ul class="list list--small">
+                  <li class="list__item mb-3">
+                    <strong>Вступительный взнос: 15 000 руб.</strong>
+                    <p class="condition-card__info">«При заключении договора на посещение садика только в летний период вступительный взнос не оплачивается»</p>
+                  </li>
+                  <li class="list__item">- 3 раза в неделю (пн, ср, пт) - <strong>25 000 руб.</strong></li>
+                  <li class="list__item">- 2 раза в неделю (вт, чт) - <strong>20 000 руб.</strong></li>
+                  <li class="list__item">- 5 раз в неделю - <strong>30 000 руб.</strong></li>
+                </ul>
+                <p></p>
               </div>
-              <!-- /.condition-card__content -->
+              <!-- /.condition-card__wrapper -->
+
+              <button data-micromodal-trigger="modal-callback" data-modal-target="sign-up" data-modal-additional="morning-evening" data-modal-title="Запись на <br> утро/вечер" class="condition-card__button button button-outline">Записаться</button>
             </div>
-            <!-- /.condition__card condition-card -->
+            <!-- /.condition-card__content -->
           </div>
-          <!-- /.col-6 -->
+          <!-- /.condition__card condition-card -->
+
+          <div class="condition__card condition-card">
+            <div class="condition-card__header condition-card__header--blue">
+              <h3 class="condition-card__title">Вечер</h3>
+            </div>
+            <!-- /.condition-card__header -->
+
+            <div class="condition-card__content">
+              <div class="condition-card__wrapper">
+                <h4 class="condition-card__subtitle">Вечер 15:30 - 20:00</h4>
+                <p class="condition-card__description">
+                  Включено в стоимость:
+                  <br>
+                  полдник, ужин и все занятия
+                  <br>
+                  по расписанию после дневного сна
+                </p>
+              </div>
+              <!-- /.condition-card__wrapper -->
+
+              <div class="condition-card__wrapper">
+                <h4 class="condition-card__subtitle">Стоимость:</h4>
+                <p class="condition-card__description">
+                </p>
+                <ul class="list list--small">
+                  <li class="list__item mb-3">
+                    <strong>Вступительный взнос: 15 000 руб.</strong>
+                    <p class="condition-card__info">«При заключении договора на посещение садика только в летний период вступительный взнос не оплачивается»</p>
+                  </li>
+                  <li class="list__item">- 3 раза в неделю (пн, ср, пт) - <strong>22 000 руб.</strong></li>
+                  <li class="list__item">- 2 раза в неделю (вт, чт) - <strong>18 000 руб.</strong></li>
+                  <li class="list__item">- 5 раз в неделю - <strong>27 000 руб.</strong></li>
+                </ul>
+                <p></p>
+              </div>
+              <!-- /.condition-card__wrapper -->
+
+              <button data-micromodal-trigger="modal-callback" data-modal-target="sign-up" data-modal-additional="morning-evening" data-modal-title="Запись на <br> утро/вечер" class="condition-card__button button button-outline">Записаться</button>
+            </div>
+            <!-- /.condition-card__content -->
+          </div>
+          <!-- /.condition__card condition-card -->
+
+          <div class="condition__card condition-card">
+            <div class="condition-card__header condition-card__header--darkblue">
+              <h3 class="condition-card__title">Весь день</h3>
+            </div>
+            <!-- /.condition-card__header -->
+
+            <div class="condition-card__content">
+              <div class="condition-card__wrapper">
+                <h4 class="condition-card__subtitle">08:00 - 20:00</h4>
+                <p class="condition-card__description">
+                  Включено в стоимость:
+                  <br>
+                  завтрак, второй завтрак, обед, полдник,
+                  <br>
+                  ужин и все занятия по расписанию.
+                </p>
+              </div>
+              <!-- /.condition-card__wrapper -->
+
+              <div class="condition-card__wrapper">
+                <h4 class="condition-card__subtitle">Стоимость:</h4>
+                <p class="condition-card__description">
+                </p>
+                <ul class="list list--small">
+                  <li class="list__item mb-3">
+                    <strong>Вступительный взнос: 20 000 руб.</strong>
+                    <p class="condition-card__info">«При заключении договора на посещение садика только в летний период вступительный взнос не оплачивается»</p>
+                  </li>
+                  <li class="list__item">- 3 раза в неделю (пн, ср, пт) - <strong>35 000 руб.</strong></li>
+                  <li class="list__item">- 2 раза в неделю (вт, чт) - <strong>28 000 руб.</strong></li>
+                  <li class="list__item">- 5 раз в неделю - <strong>45 000 руб.</strong></li>
+                </ul>
+                <p></p>
+              </div>
+              <!-- /.condition-card__wrapper -->
+
+              <button data-micromodal-trigger="modal-callback" data-modal-target="sign-up" data-modal-additional="all-day" data-modal-title="Запись на <br> весь день" class="condition-card__button button button-outline">Записаться</button>
+            </div>
+            <!-- /.condition-card__content -->
+          </div>
+          <!-- /.condition__card condition-card -->
+
+          <div class="condition__card condition-card">
+            <div class="condition-card__header condition-card__header--purple">
+              <h3 class="condition-card__title">Мини-сад</h3>
+            </div>
+            <!-- /.condition-card__header -->
+
+            <div class="condition-card__content">
+              <div class="condition-card__wrapper">
+                <h4 class="condition-card__subtitle">08:00 – 12.30</h4>
+                <p class="condition-card__description">
+                  Включено в стоимость:
+                  <br>
+                  завтрак, второй завтрак, познавательно-игровая деятельность по расписанию мини-садика
+                </p>
+              </div>
+              <!-- /.condition-card__wrapper -->
+
+              <div class="condition-card__wrapper">
+                <h4 class="condition-card__subtitle">Стоимость: <strong>25 000 руб.</strong></h4>
+              </div>
+              <!-- /.condition-card__wrapper -->
+
+              <button data-micromodal-trigger="modal-callback" data-modal-target="sign-up" data-modal-additional="all-day" data-modal-title="Запись на <br> весь день" class="condition-card__button button button-outline">Записаться</button>
+            </div>
+            <!-- /.condition-card__content -->
+          </div>
+          <!-- /.condition__card condition-card -->
         </div>
         <!-- /.row -->
       </div>
-      <!-- /.condition -->
     </div>
     <!-- /.container -->
   </section>

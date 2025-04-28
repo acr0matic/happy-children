@@ -1,4 +1,8 @@
 .modal__overlay {
+  @include breakpoint($breakpoint-tablet) {
+    padding: 64px 5px 0;
+  }
+
   position: fixed;
   z-index: $z-index-modal;
   top: 0;

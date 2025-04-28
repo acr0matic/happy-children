@@ -1,6 +1,6 @@
 .condition-card {
-  border-radius: $border-radius;
   overflow: hidden;
+  border-radius: $border-radius;
   box-shadow: $shadow;
 
   strong {
@@ -17,6 +17,10 @@
     color: $text-white;
     text-align: center;
 
+    &--blue {
+      background-color: $palette-blue;
+    }
+
     &--yellow {
       background-color: $palette-yellow;
     }
@@ -24,26 +28,38 @@
     &--darkblue {
       background-color: $palette-darkblue;
     }
-  }
 
-  &__title {
-    font-size: 28px;
-    font-weight: $weight-Medium;
-
-    @include breakpoint($breakpoint-tablet) {
-      font-size: $font-size-2;
+    &--purple {
+      background-color: $palette-purple;
     }
   }
 
-  &__subtitle {
-    margin-bottom: 5px;
-    font-size: $font-size-2;
-    font-weight: $weight-Medium;
+  &__title {
+    @include breakpoint($breakpoint-tablet) {
+      font-size: $font-size-2;
+    }
 
+    font-weight: $weight-Medium;
+    font-size: 28px;
+  }
+
+  &__info {
+    padding-left: 4px;
+
+    font-weight: $weight-Light;
+    font-size: 12px;
+  }
+
+  &__subtitle {
     @include breakpoint($breakpoint-tablet) {
       margin-bottom: 12px;
       font-size: $font-size-5;
     }
+
+    margin-bottom: 5px;
+
+    font-weight: $weight-Medium;
+    font-size: $font-size-2;
   }
 
   &__description {
@@ -57,12 +73,13 @@
   }
 
   &__content {
-    padding: 48px;
-    background-color: $palette-white;
-
     @include breakpoint($breakpoint-tablet) {
       padding: 35px 15px;
     }
+
+    height: 100%;
+    padding: 48px;
+    background-color: $palette-white;
   }
 
   &__wrapper {
@@ -73,8 +90,7 @@
 
   &__button {
     display: block;
-    margin: 40px auto 0 auto;
-
+    margin: 40px auto 0;
     padding: 18px 80px;
   }
 }

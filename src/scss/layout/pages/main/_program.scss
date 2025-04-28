@@ -43,6 +43,7 @@
 
   &__text {
     margin-bottom: 25px;
+    font-size: $font-size-4;
 
     li {
       @include breakpoint($breakpoint-mobile--large) {
