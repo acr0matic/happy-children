@@ -1,0 +1,77 @@
+#cp-camp-course {
+  .course {
+    &__grid {
+      @include breakpoint($breakpoint-laptop--medium) {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      @include breakpoint($breakpoint-tablet) {
+        grid-template-columns: 1fr;
+      }
+
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 32px;
+    }
+
+    &__card {
+      position: relative;
+      height: 240px;
+
+      padding: 16px 20px;
+      border-radius: 10px;
+      background-color: $palette-white;
+    }
+
+    &__content {
+      display: flex;
+      flex-direction: column;
+      max-width: 65%;
+      height: 100%;
+    }
+
+    &__text {
+      display: flex;
+      flex-grow: 1;
+      flex-direction: column;
+    }
+
+    &__title {
+      margin-bottom: 12px;
+      font-size: 22px;
+
+      line-height: 1.15;
+    }
+
+    &__subtitle {
+      color: #b691bc;
+      font-weight: $weight-Medium;
+    }
+
+    &__date {
+      margin-top: auto;
+
+      color: #000000;
+      font-weight: $weight-Medium;
+    }
+
+    &__action {
+      margin-top: 12px;
+    }
+
+    &__icon {
+      position: absolute;
+      right: 8px;
+      bottom: 0;
+
+      width: 160px;
+      aspect-ratio: 1 / 1;
+
+      img {
+        object-fit: contain;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}

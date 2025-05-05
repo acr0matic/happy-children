@@ -1,0 +1,21 @@
+#camp-page {
+  .section {
+    @include breakpoint($breakpoint-tablet) {
+      padding-top: 80px;
+    }
+
+    padding-top: 100px;
+
+    &__title {
+      @include breakpoint($breakpoint-tablet) {
+        text-align: left;
+      }
+
+      font-weight: $weight-Bold;
+    }
+  }
+
+  .button {
+    padding: 12px 30px;
+  }
+}

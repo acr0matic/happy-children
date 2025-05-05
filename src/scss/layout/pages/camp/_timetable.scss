@@ -1,0 +1,55 @@
+#cp-camp-timetable {
+  .timetable {
+    @include breakpoint($breakpoint-tablet--large) {
+      grid-template-columns: 1fr;
+      gap: 0;
+    }
+
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    gap: 20px;
+
+    &__item {
+      @include breakpoint($breakpoint-tablet) {
+        grid-template-columns: 1fr;
+        gap: 8px;
+        padding: 16px;
+      }
+
+      display: grid;
+      grid-template-columns: 170px 1fr;
+      gap: 16px;
+      align-items: center;
+
+      padding: 20px;
+      border-radius: 10px;
+      background-color: $palette-white;
+      box-shadow: 0 0 13px rgba($color: #9ba1aa, $alpha: 0.1);
+
+      &:not(:last-child) {
+        margin-bottom: 8px;
+      }
+
+      p {
+        line-height: 1.15;
+      }
+
+      p:first-child {
+        @include breakpoint($breakpoint-tablet) {
+          font-size: 18px;
+        }
+
+        color: $text-purple;
+        font-size: 24px;
+      }
+
+      p:nth-child(2) {
+        font-size: 18px;
+
+        span {
+          color: $text-purple;
+        }
+      }
+    }
+  }
+}

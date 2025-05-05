@@ -42,7 +42,7 @@
 
         <div class="footer__info d-flex flex-column">
           <a href="" target="_blank" class="footer__link link link--text privacy mb-2 mt-2">Политика конфиденциальности</a>
-          <span class="footer__copyright">Все права защищены (с) 2020 г.</span>
+          <span class="footer__copyright">Все права защищены (с) 2025 г.</span>
         </div>
         <!-- /.footer__info -->
       </div>
