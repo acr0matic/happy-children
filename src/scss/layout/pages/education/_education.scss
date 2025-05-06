@@ -1,0 +1,51 @@
+#cp-education {
+  .education {
+    &__table {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+
+    &__row {
+      @include breakpoint($breakpoint-tablet) {
+        grid-template-columns: 1fr;
+      }
+
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 30px;
+
+      padding: 20px;
+      border-radius: 10px;
+      background-color: $palette-white;
+    }
+
+    &__col {
+      span {
+        @include breakpoint($breakpoint-tablet) {
+          font-size: 16px;
+        }
+
+        color: #000000;
+        font-weight: $weight-Medium;
+        font-size: 20px;
+      }
+    }
+
+    &__action {
+      margin-top: 24px;
+
+      .button {
+        @include breakpoint($breakpoint-tablet) {
+          width: 100%;
+        }
+
+        min-width: 210px;
+        border: 1px solid $palette-blue;
+        background-color: $palette-white;
+        color: $palette-blue;
+        text-align: center;
+      }
+    }
+  }
+}
