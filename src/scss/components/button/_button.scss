@@ -1,9 +1,14 @@
 .button {
-  outline: none;
+  @include breakpoint($breakpoint-laptop--medium) {
+    font-size: $font-size-6;
+  }
+
+  display: inline-block;
+  padding: 18px 30px;
+
   border: none;
   border-radius: 28px;
-
-  padding: 18px 30px;
+  outline: none;
 
   color: $button__text;
   font-weight: $weight-Bold;
@@ -11,19 +16,15 @@
   cursor: pointer;
   transition: 0.15s ease;
 
-  @include breakpoint($breakpoint-laptop--medium) {
-    font-size: $font-size-6;
-  }
-
   &:hover:enabled {
     @media (hover: hover) {
-      color: $button__text;
       border-color: $button__border--hover;
       background-color: $button__bg--hover;
+      color: $button__text;
     }
   }
-  
+
   &:disabled {
-	opacity: 0.7;
+    opacity: 0.7;
   }
 }

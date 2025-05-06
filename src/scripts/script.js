@@ -42,3 +42,11 @@ new SmoothScroll('a[href*="/#"]', {
 AOS.init({
   once: true,
 });
+
+
+if (document.querySelector('#camp-page')) {
+  new SmoothScroll('a[href*="#"]', {
+    speed: 500,
+    speedAsDuration: true,
+  });
+}

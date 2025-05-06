@@ -1,4 +1,6 @@
 #cp-camp-callback {
+  overflow: visible;
+
   .callback {
     &__grid {
       @include breakpoint($breakpoint-laptop--medium) {
