@@ -106,3 +106,95 @@ if (window.matchMedia('(max-width: 768px)').matches) {
     },
   });
 }
+
+const information = document.querySelector('#cp-information');
+
+if (information) {
+  const controls = document.querySelectorAll('.information__side li');
+  const informationSlider = new Swiper('.information__content .swiper', {
+    speed: 400,
+    spaceBetween: 30,
+    simulateTouch: false,
+    effect: 'fade',
+    autoHeight: true,
+    fadeEffect: {
+      crossFade: true,
+    }
+  });
+
+  // Функция для получения индекса слайда из хэша
+  function getSlideIndexFromHash() {
+    const hash = window.location.hash;
+    if (hash) {
+      // Ищем индекс пункта меню, соответствующий хэшу
+      for (const [index, control] of controls.entries()) {
+        const anchor = control.querySelector('a');
+        if (anchor && anchor.getAttribute('href') === hash) {
+          return index;
+        }
+      }
+    }
+    return 0; // По умолчанию первый слайд
+  }
+
+  // Функция для перехода к слайду
+  function goToSlideByIndex(index, speed = 400) {
+    informationSlider.slideTo(index, speed);
+    // Обновляем активный класс на пунктах меню
+    controls.forEach((control, i) => {
+      if (i === index) {
+        control.classList.add('active');
+      } else {
+        control.classList.remove('active');
+      }
+    });
+  }
+
+  // Обработчик клика по пунктам меню
+  for (const [index, control] of controls.entries()) {
+    // Добавляем якорные ссылки к пунктам меню
+    const anchor = document.createElement('a');
+    anchor.setAttribute('href', `#slide-${index}`);
+    anchor.style.textDecoration = 'none';
+    anchor.style.color = 'inherit';
+
+    // Переносим содержимое span в ссылку
+    const span = control.querySelector('span');
+    if (span) {
+      anchor.innerHTML = span.innerHTML;
+      span.replaceWith(anchor);
+    } else {
+      anchor.textContent = control.textContent;
+      control.textContent = '';
+      control.appendChild(anchor);
+    }
+
+    control.addEventListener('click', (e) => {
+      e.preventDefault();
+      const targetAnchor = control.querySelector('a');
+      if (targetAnchor) {
+        // Обновляем URL с якорем
+        window.location.hash = targetAnchor.getAttribute('href');
+        goToSlideByIndex(index);
+      }
+    });
+  }
+
+  // Обработчик изменения хэша в URL
+  window.addEventListener('hashchange', () => {
+    const slideIndex = getSlideIndexFromHash();
+    goToSlideByIndex(slideIndex);
+  });
+
+  // Инициализация при загрузке страницы
+  window.addEventListener('load', () => {
+    const slideIndex = getSlideIndexFromHash();
+    goToSlideByIndex(slideIndex, 0);
+  });
+
+  // Также обрабатываем событие popstate для кнопок назад/вперед
+  window.addEventListener('popstate', () => {
+    const slideIndex = getSlideIndexFromHash();
+    goToSlideByIndex(slideIndex);
+  });
+}

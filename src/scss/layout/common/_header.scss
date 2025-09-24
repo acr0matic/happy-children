@@ -32,8 +32,16 @@
     }
   }
 
-  &__action {
+  &__ally {
+    width: 32px;
+    height: 24px;
+
     margin-left: auto;
+    cursor: pointer;
+  }
+
+  &__action {
+    margin-left: 24px;
     text-align: center;
 
     transition: 0.15s ease;

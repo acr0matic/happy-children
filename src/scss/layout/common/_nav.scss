@@ -27,6 +27,10 @@
     @include breakpoint($breakpoint-laptop--medium) {
       text-align: center;
     }
+
+    @include breakpoint($breakpoint-laptop--medium) {
+      text-align: left;
+    }
   }
 
   &__link {
